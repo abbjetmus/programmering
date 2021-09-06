@@ -1,6 +1,15 @@
 # Programmering
-Välkommen till kursen Programmering på ABB Industrigymnasium 2021. Under kursens gång kommer vi gå igenom tre olika språk/ramverk för att programmera mot webben. Vi börjar med HTML/CSS/Javascript och går sedan in på javascriptramverket Vue för att enklare och snabbare kunna göra stora och coola saker.
+Välkommen till kursen Programmering på ABB Industrigymnasium 2021. Under kursens gång kommer vi gå igenom de tre språken som används för att programmera mot webben HTML/CSS/JavaScript. 
 
-Vi kommer även samarbeta med andra kurser för att skapa en uppkopplad termometer samt smart belysning.
+Efter det kommer vi lära oss hur man bygger mer avancerade applikationer med ramverk Vue.js.
+
+Vi kommer även lära oss hur man kommunicerar med webbtjänster genom HTTP-protokollet.
+
+Dessa tekniker kommer vi applicera på olika projekt som vi samarbetar med andra kurser som till exempel skapa en uppkopplad termometer eller smart belysning.
 
 ![alt text](https://www.codingtothink.com/content/images/2021/05/css-html-illustration.jpg "Web Anatomy")
+
+Undervisningen kommer bestå av lärarledda genomgångar av olika koncept i kombination med övningar och en utbildningsserie på webbsidan [Khan Academy](https://www.khanacademy.org/computing/computer-programming)
+
+## Schema
+
