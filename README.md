@@ -12,4 +12,8 @@ Dessa tekniker kommer vi applicera på olika projekt som vi samarbetar med andra
 Undervisningen kommer bestå av lärarledda genomgångar av olika koncept i kombination med övningar och en utbildningsserie på webbsidan [Khan Academy](https://www.khanacademy.org/computing/computer-programming)
 
 ## Schema
+Fram till vecka 40 så ska ni ha gått igenom följande tre delar i den här ordningen på Khan Academy:
 
+1. ![Intro to HTML/CSS: Making webpages](https://www.khanacademy.org/computing/computer-programming/html-css)
+2. ![Intro to JS: Drawing & Animation](https://www.khanacademy.org/computing/computer-programming/programming)
+3. ![HTML/JS: Making webpages interactive](HTML/JS: Making webpages interactive)
