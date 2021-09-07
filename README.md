@@ -17,3 +17,9 @@ Fram till vecka 40 så ska ni ha gått igenom följande tre delar i den här ord
 1. [Intro to HTML/CSS: Making webpages](https://www.khanacademy.org/computing/computer-programming/html-css)
 2. [Intro to JS: Drawing & Animation](https://www.khanacademy.org/computing/computer-programming/programming)
 3. [HTML/JS: Making webpages interactive](https://www.khanacademy.org/computing/computer-programming/html-css-js)
+
+## 0. Testmiljö
+
+När vi testar våran JavaScript kod så kommer vi börja med att göra det i Plunker som är en online miljö för att testa webbtekniker.
+
+Här är en länk till en plunk som ni kan använda: <https://plnkr.co/edit/9OnAVyIK7Tk1cP6d>
