@@ -23,3 +23,6 @@ Fram till vecka 40 så ska ni ha gått igenom följande tre delar i den här ord
 När vi testar våran JavaScript kod så kommer vi börja med att göra det i Plunker som är en online miljö för att testa webbtekniker.
 
 Här är en länk till en plunk som ni kan använda: <https://plnkr.co/edit/9OnAVyIK7Tk1cP6d>
+
+## W3Schools
+Mycket bra sida för HTML, CSS och JavaScript <https://www.w3schools.com/default.asp>.
