@@ -37,4 +37,3 @@ Mycket bra sida för HTML, CSS och JavaScript <https://www.w3schools.com/default
 * Hur man jobbar med färger och bakgrundsfärger i CSS
 * Hur man jobbar med text i CSS
 * Vad flexbox är och hur man jobbar med det för att designa en layout
-* 
