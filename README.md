@@ -26,3 +26,15 @@ Här är en länk till en plunk som ni kan använda: <https://plnkr.co/edit/9OnA
 
 ## W3Schools
 Mycket bra sida för HTML, CSS och JavaScript <https://www.w3schools.com/default.asp>.
+
+## Checklista HTML/CSS
+
+* Känna till de vanligaste HTML-taggarna h1-h6, p, div, span, a, img, form, button, input...
+* Förstå skillnaden mellan inline och block element i HTML
+* Hur man skapar listor
+* Vad som menas BOX-modellen och hur man ändrar margin, padding och bredd och höjd
+* Positionering static, relative, absolute, fixed...
+* Hur man jobbar med färger och bakgrundsfärger i CSS
+* Hur man jobbar med text i CSS
+* Vad flexbox är och hur man jobbar med det för att designa en layout
+* 
