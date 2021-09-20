@@ -37,8 +37,6 @@ Till varje del så kommer det finnas lite övningsuppgifter.
 ## Övergripande resurser för denna modul:
 
 - [Modern Javascript](https://javascript.info/)
-- [Scrimba länk - variabler, if-satser, loopar och object](https://scrimba.com/p/pDyxbfd/cNDGqRTr)
-- [Scrimba länk - If-satser och loopar fördjupning](https://scrimba.com/c/caZNqwcL)
 - [W3School HTML](https://www.w3schools.com/html/)
 - [W3School CSS](https://www.w3schools.com/css/default.asp)
 - [HTML/CSS av The Net Ninja på Youtube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G)
