@@ -15,8 +15,11 @@ Undervisningen kommer bestå av lärarledda genomgångar av olika koncept i komb
 Fram till vecka 40 så ska ni ha gått igenom följande tre delar i den här ordningen på Khan Academy:
 
 1. [Intro to HTML/CSS: Making webpages](https://www.khanacademy.org/computing/computer-programming/html-css)
+** Vecka 36-37
 2. Gå till mappen JavaScript och följ innehållet där.
+** Vecka 38
 3. [HTML/JS: Making webpages interactive](https://www.khanacademy.org/computing/computer-programming/html-css-js)
+** Vecka 39
 
 ## Testmiljö
 
