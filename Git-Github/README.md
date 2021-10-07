@@ -2,6 +2,10 @@
 
 <https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to>
 
+Börja här: <https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/>
+<br><br>
+Korta klipp som visar vanliga uppgifter i Git: <https://vscode.github.com/>
+
 ## Kom igång med Github
 Denna handledning innehåller en kort introduktion till Git och GitHub samt en förklaring till varför vi vill att du använder det. Du kommer också i denna handledning få en introduktion till hur du börjar arbeta med Git. Denna guide är inte en komplett handledning till Git utan kan ses som en startpunkt för att komma igång. Vi rekommenderar även den kostnadsfria boken Pro Git <https://git-scm.com/book/en/v2> som är fullmatad med nyttig information kring Git för djupare förståelse.
 
