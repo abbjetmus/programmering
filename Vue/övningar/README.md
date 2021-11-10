@@ -3,48 +3,13 @@
 Ni som upplever att uppgifterna är för lätta och vill ha lite mer utmanande mindre projekt så kolla på den här länken:
 <https://rojas.io/vue-js-practice-project-ideas/>
 
-### Testkod
-Lägg testkoden i en fil och gör uppgifterna med den som utgångspunkt.
+### Övning 0 - Skapa ett nytt Vue projekt med Vue-CLI
+Skapa ett nytt projekt med Vue CLI.
 
-```
-<!DOCTYPE html>
-<html>
-
-<head>
-    <!-- Hämtar vue.js bibilioteket -->
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
-
-</head>
-
-<body>
-    <!-- Anger div som vue ska appliceras på -->
-    <div id="app">
-        <h1>{{namn}}</h1>
-    </div>
-
-</body>
-
-<script>
-    // Skapar en vue instans som kopplas till div-taggen med id="app"
-    var app = new Vue({
-        el: '#app',
-        data: {
-            namn: 'Kalle Kula!',
-        }
-    })
-
-</script>
-
-</html>
-```
-
-Eller skapa ett nytt projekt med Vue CLI.
+Testa alla kodsnuttar från powerpointen och försök förstå hur det fungerar.
 
 ### Övning 1 - Hello From GroupX
-0. Skapa en mapp på valfri plats och öppna den med Visual Studio Code.
-1. Skapa en `index.html` fil i mappen.
-2. Lägg till html-kod för ett standard html dokument med `<head>` och `<body>` osv.
-3. Inkludera Vue.js i filen och skriv ut rubriken "Hello From GroupX" tillsammans med en lista på namnen av alla grupp medlemmar.
+3. I en valfri komponent i projektet skapa en rubrik med texten "Hello From GroupX" tillsammans med en lista på namnen av alla grupp medlemmar.
 "Hello From GroupX" och listan ska deklareras som vue data variabler.
 
 ### Övning 1.1 - Formulär
