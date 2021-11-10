@@ -1,4 +1,5 @@
 # VUE
+Vue2 var tills nyligen senaste versionen av Vue, men då Vue3 har kommit ut är det den versionen vi kommer att använda.
 ## Intro
 Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare och snabbare kunna utveckla applikationer.
 
@@ -14,7 +15,24 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 
 * Vue-Directives är den del av Vue.js som lägger speciell betydelse och beteende till vanliga html-element på sidan.
 
+* Vue förser oss med reaktivitet vilket gör att våra vyer/sidor automagiskt uppdateras när vårat data ändras.
+
 ## VUE-CLI
+Säkerställ att du har Node.js installerat på din dator genom att öppna ett kommandofönster och skriva:<br>
+```node --version```<br><br>
+
+Node är ett program på din dator som möjliggör att man kan köra JavaScript utanför webbläsaren, och tillhandahåller ett enkelt sätt att hämta JavaScript paket via ett verktyg som heter NPM NodePackageManager.
+
+Jag får upp <i>"Welcome to Node.js v14.17.6."<i> men versionnumret kan skilja för er.
+<br><br>
+Sedan ska ni installera Vue CLI på eran dator genom kommandot:<br>
+```npm install -g @vue/cli```<br><br>
+
+Bekräfta att det installerats genom kommandot: <br>
+```vue --version```<br><br>
+
+Jag får upp <i>"@vue/cli 4.5.12"<i> men versionnumret kan skilja för er.
+<br><br>
 
 ## Nytt projekt från start
 Vue CLI används för att generera ett projekt och görs via ett kommandofönster. Så börja med att öppna ett kommandofönster.
@@ -44,81 +62,72 @@ Start upp projektet i en live-server med kommandot<br>
 
 ## Övergripande resurser för denna modul:
 
-- [Vue](https://vuejs.org/v2/guide/)
-- [Youtube - Net Ninja Vue](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa)
-
-Även om den delmängd av alla videor har plockats ut rekommenderas att man går igenom alla.
+- [Vue](https://v3.vuejs.org/guide)
+- [Youtube - Net Ninja Vue](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1)
+- [A Beginner’s Guide to Vue 3](sitepoint.com/vue-3-beginner-guide)
+Även om den delmängd av alla videor har plockats ut rekommenderas att man går igenom alla om ni har tid.
 
 ## 1.1 Interpolation
 
 ### Resurser
-[Vue.js Interpolation](https://vuejs.org/v2/guide/syntax.html#Text) <br>
-[Youtube - Net Ninja Interpolation](https://www.youtube.com/watch?v=3ROjxrSa5pk&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=3&t=0s)
+[Vue.js Interpolation](https://v3.vuejs.org/guide/template-syntax.html#interpolations) <br>
 
-## 1.2 Attribute Binding
+## 1.2 Direktiv
 ### Resurser
-[Vue.js Interpolation](https://vuejs.org/v2/guide/syntax.html#Attributes) <br>
-[Youtube - Net Ninja Binding](https://www.youtube.com/watch?v=xIOwFTCBBDg&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=5)
+[Vue.js Directives](https://v3.vuejs.org/guide/template-syntax.html#directives) <br>
 
-## 1.3 Conditional Rendering
+## 1.3 Attribute Binding
 ### Resurser
-[Vue.js Conditions](https://vuejs.org/v2/guide/conditional.html) <br>
-[Youtube - Net Ninja Conditions](https://www.youtube.com/watch?v=0EJqZLcwVLY&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=12)
+[Vue.js Attribute Binding](https://v3.vuejs.org/guide/template-syntax.html#directives) <br>
 
-## 1.4 List Rendering - Loopar
+## 1.4 Conditional Rendering
 ### Resurser
-[Vue.js List & Loops](https://vuejs.org/v2/guide/list.html) <br>
-[Youtube - Net Ninja Loops](https://www.youtube.com/watch?v=9Hcswbo0nCY&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=13)
+[Vue.js Conditions](https://v3.vuejs.org/guide/template-syntax.html#directives) <br>
 
-## 1.5 Events
+## 1.5 List Rendering - Loopar
 ### Resurser
-[Vue.js Events](https://vuejs.org/v2/guide/events.html) <br>
-[Youtube - Net Ninja Events](https://www.youtube.com/watch?v=DCwOPBxsXDs&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=6)
+[Vue.js List & Loops](https://v3.vuejs.org/guide/template-syntax.html#directives) <br>
 
-## 1.6 Two-way Data Binding
+## 1.6 Events
 ### Resurser
-[Vue.js v-model](https://vuejs.org/v2/guide/components.html#Using-v-model-on-Components) <br>
-[Youtube - Net Ninja Two-way data binding](https://www.youtube.com/watch?v=FgvjjYBP2A0&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=9)
+[Vue.js Handling User Input](https://v3.vuejs.org/guide/introduction.html#handling-user-input) <br>
 
-## 1.7 Computed Properties
+## 1.7 Two-way Data Binding
 ### Resurser
-[Vue.js Computed](https://vuejs.org/v2/guide/computed.html) <br>
-[Youtube - Net Ninja Computed](https://www.youtube.com/watch?v=O14qJr5sKXo&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=10)
+[Vue.js v-model](https://v3.vuejs.org/guide/template-syntax.html#directives) <br>
 
-## 1.8 Watchers
+## 1.8 Computed Properties
 ### Resurser
-[Vue.js Watchers](https://vuejs.org/v2/guide/computed.html#Computed-vs-Watched-Property)
+[Vue.js Computed](https://v3.vuejs.org/guide/introduction.html#handling-user-input) <br>
 
-## 1.9 Class Binding
+## 1.9 Watchers
 ### Resurser
-[Vue.js Class Binding](https://vuejs.org/v2/guide/class-and-style.html) <br>
-[Youtube - Net Ninja Class Binding](https://www.youtube.com/watch?v=4Gh5YcvGDjI&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=11)
+[Vue.js Watchers](https://v3.vuejs.org/guide/computed.html#watchers)
 
-## 1.10 Style Binding
+## 1.10 Class Binding
 ### Resurser
-[Vue.js Style Binding](https://vuejs.org/v2/guide/class-and-style.html)
+[Vue.js Class Binding](https://v3.vuejs.org/guide/class-and-style.html#class-and-style-bindings) <br>
 
-## 1.11 Components
+## 1.11 Style Binding
 ### Resurser
-[Vue.js Components](https://vuejs.org/v2/guide/components.html) <br>
-[Youtube - Net Ninja Components](https://www.youtube.com/watch?v=EAONyIKrZN0&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=16)
+[Vue.js Style Binding](https://v3.vuejs.org/guide/class-and-style.html#class-and-style-bindings)
 
-## 1.12 Component Communication - Props
+## 1.12 Components
 ### Resurser
-[Vue.js Props](https://vuejs.org/v2/guide/components-props.html) <br>
-[Youtube - Net Ninja Props parent->child](https://www.youtube.com/watch?v=9qqFH60isFc&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=23)
+[Vue.js Components](https://v3.vuejs.org/guide/component-registration.html#component-registration) <br>
 
-## 1.13 Component Communication - Emit Events
+## 1.13 Component Communication - Props
+### Resurser
+[Vue.js Props](https://v3.vuejs.org/guide/component-props.html#props) <br>
+
+## 1.14 Component Communication - Emit Events
 ### Resurser
 [Vue.js Emit Events](https://vuejs.org/v2/guide/components-custom-events.html) <br>
-[Youtube - Net Ninja Emit events child->parent](https://www.youtube.com/watch?v=5pvG6fzkdFM&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=25)
 
-## 1.14 Life-cycle hooks
+## 1.15 Life-cycle hooks
 ### Resurser
 [Vue.js Hooks](https://vuejs.org/v2/guide/instance.html) <br>
-[Youtube - Net Ninja Life-cycle hooks](https://www.youtube.com/watch?v=8rn3SK4N8Go&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=27)
 
-## 1.15 Slots
+## 1.16 Slots
 ### Resurser
 [Vue.js Slots](https://vuejs.org/v2/guide/components-slots.html) <br>
-[Youtube - Net Ninja Life-cycle hooks](https://www.youtube.com/watch?v=F44OoFk8spg&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=29&t=0s)
