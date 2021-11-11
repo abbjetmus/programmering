@@ -4,22 +4,51 @@ Ni som upplever att uppgifterna är för lätta och vill ha lite mer utmanande m
 <https://rojas.io/vue-js-practice-project-ideas/>
 
 ### Övning 0 - Skapa ett nytt Vue projekt med Vue-CLI
-Skapa ett nytt projekt med Vue CLI.
+Skapa ett nytt projekt med Vue CLI dvs via kommandofönstret, minns du inte kolla på beskrivningen i mappen en nivå upp.
+Du kan göra övningarna för 0 i App.vue komponenten.
 
-Testa alla kodsnuttar från powerpointen och försök förstå hur det fungerar.
+#### Övning 0.1 - Interpolering
+1. Skapa en data variabel *message* med värdet "Hello Vue!" och visa värdet i HTML koden genom interpolering {{}}.
+2. Hitta på lite fler variabler med olika typer och visa dem med.
+
+```
+export default {
+  name: 'App',
+  export
+  data() {
+    return {
+
+    }
+  }
+}
+```
+
+#### Övning 0.2 - Attribut bindning
+1. Skapa en data variabel *link* med värdet på en valfri Youtube video. Skapa sedan en länk-tagg <a>a</a>-tagg som binder till länk variabeln, verifiera så att länken fungerar när du klickar på den.
+2. Skapa en data variabel *image* med värdet på en bildaddress på en valfri bild från nätet.
+Skapa sedan en img-tagg vars src-attribut binder till image variabeln och visar bilden på skärmen.
+
+#### Övning 0.3 - HTML Villkor
+1. Skapa en data variabel *age* med värdet på en ålder som du själv bestämmer. 
+2. Använd sedan *v-if* direktivet i HTML section för att kontrollera ifall age variabeln är större än 18. Stämmer villkoret ska en p-tagg visas med texten "Du får ta körkort! annars visas texten "Tyvärr du får inte ta körkort!".
+
+#### Övning 0.4 - Loopar i HTML med v-for
+1. Skapa en data variabel som är en lista med talen *1 till 10*. 
+2. Använd sedan *v-for* direktivet i HTML section för att loopa/gå igenom listan med talen och skriv ut dem med hjälp av interpolering och en oordnad lista ul/li.
+
+#### Övning 0.5 - Eventhantering med knappar
+1. Skapa en data variabel som heter *name* och som innehåller ert förnamn. Visa namnet med interpolering på skärmen.
+2. Skapa sedan en knapp med texten "byt namn", koppla på ett klick event/metod som körs när man klickar på knappen så att *name* variabeln uppdateras till ditt efternamn istället. Du kan döpa metoden till vad du vill tex changeName().
+
 
 ### Övning 1 - Hello From GroupX
 3. I en valfri komponent i projektet skapa en rubrik med texten "Hello From GroupX" tillsammans med en lista på namnen av alla grupp medlemmar.
 "Hello From GroupX" och listan ska deklareras som vue data variabler.
 
 ### Övning 1.1 - Formulär
-0. Skapa en mapp på valfri plats och öppna den med Visual Studio Code.
-1. Skapa en `index.html` fil i mappen.
-2. Lägg till html-kod för ett standard html dokument med `<head>` och `<body>` osv.
-3. Inkludera Vue.js i filen.
-4. Skapa 4 input-fält för address, postnummer, stad och land.
-5. Skapa 4 variabler i data-sektionen för att spara det som matas in.
-6. Skapa en knapp som skriver det som matats in i ***alert()***
+1. Skapa 4 input-fält för address, postnummer, stad och land.
+2. Skapa 4 variabler i data-sektionen för att spara det som matas in.
+3. Skapa en knapp som skriver det som matats in i ***alert()***
 
 ### Övning 1.2 - Computed
 1. Skapa två data-variabler för firstName och lastName.
