@@ -36,7 +36,19 @@ Skapa sedan en img-tagg vars src-attribut binder till image variabeln och visar 
 1. Skapa en data variabel som är en lista med talen *1 till 10*. 
 2. Använd sedan *v-for* direktivet i HTML section för att loopa/gå igenom listan med talen och skriv ut dem med hjälp av interpolering och en oordnad lista ul/li.
 
-#### Övning 0.5 - Eventhantering med knappar
+#### Övning 0.5 - API anrop för att hämta ett objekt och presentera det
+1. Skapa en variabel som heter *photo* som är null från början.
+2. I *created()* metoden gör ett API-anrop med *fetch()* som hämtar ett photo objekt och tilldelar det till *photo* data variabeln.<br>
+<https://jsonplaceholder.typicode.com/photos/1>
+3. Presentera sedan photo objektets värden i html med interpolation.
+
+#### Övning 0.6 - API anrop för att hämta en lista av objekt
+1. Skapa en variabel som heter *photos* som är null från början.
+2. I *created()* metoden gör ett API-anrop med *fetch()* som hämtar ett photo objekt och tilldelar det till *photo* data-variabeln.<br>
+<https://jsonplaceholder.typicode.com/photos/1>
+3. Presentera sedan photo objektets värden i html med interpolation.
+
+#### Övning 0.7 - Eventhantering med knappar
 1. Skapa en data variabel som heter *name* och som innehåller ert förnamn. Visa namnet med interpolering på skärmen.
 2. Skapa sedan en knapp med texten "byt namn", koppla på ett klick event/metod som körs när man klickar på knappen så att *name* variabeln uppdateras till ditt efternamn istället. Du kan döpa metoden till vad du vill tex changeName().
 
