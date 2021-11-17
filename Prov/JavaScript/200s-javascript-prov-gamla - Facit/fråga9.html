@@ -18,14 +18,21 @@
     <!-- Här ska din HTML kod vara -->
     <input type="checkbox" id="checkbox" />
 
-    <div
-        style="width: 200px; height: 200px;"
-    />
+    <div id="div" style="width: 200px; height: 200px;" />
 
 
     <script>
         // Här ska din JavaScript kod vara
+        let checkbox = document.getElementById("checkbox");
+        let div = document.getElementById("div");
 
+        checkbox.onchange = function () {
+            if (checkbox.checked) {
+                div.className = "backgroundGreen"
+            } else {
+                div.className = "backgroundRed"
+            }
+        }
 
     </script>
 </body>
