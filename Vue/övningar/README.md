@@ -52,6 +52,10 @@ Skapa sedan en img-tagg vars src-attribut binder till image variabeln och visar 
 1. Skapa en data variabel som heter *name* och som innehåller ert förnamn. Visa namnet med interpolering på skärmen.
 2. Skapa sedan en knapp med texten "byt namn", koppla på ett klick event/metod som körs när man klickar på knappen så att *name* variabeln uppdateras till ditt efternamn istället. Du kan döpa metoden till vad du vill tex changeName().
 
+### Övning 0.8 - Två-vägs bindning och computed (beräknade variabler)
+1. Skapa två data-variabler för firstName och lastName.
+2. Skapa en input-fält som har två-vägbindning med lastName dvs **v-model**.
+3. Skapa computed variabel som skriver ut fullName.
 
 ### Övning 1 - Hello From GroupX
 3. I en valfri komponent i projektet skapa en rubrik med texten "Hello From GroupX" tillsammans med en lista på namnen av alla grupp medlemmar.
@@ -61,11 +65,6 @@ Skapa sedan en img-tagg vars src-attribut binder till image variabeln och visar 
 1. Skapa 4 input-fält för address, postnummer, stad och land.
 2. Skapa 4 variabler i data-sektionen för att spara det som matas in.
 3. Skapa en knapp som skriver det som matats in i ***alert()***
-
-### Övning 1.2 - Computed
-1. Skapa två data-variabler för firstName och lastName.
-2. Skapa en input-fält som har två-vägbindning med lastName dvs **v-model**.
-3. Skapa computed variabel som skriver ut fullName.
 
 ### Övning 2 - Skapa en data-bunden komponent
 Lägg till en ny komponent för att visa ett lektions-event med hjälp av html och datat nedan.<br>
