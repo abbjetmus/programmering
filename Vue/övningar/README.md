@@ -57,6 +57,9 @@ Skapa sedan en img-tagg vars src-attribut binder till image variabeln och visar 
 2. Skapa två input-fält som har två-vägbindning med lastName och firstName dvs **v-model**.
 3. Visa för och efternamn brevid varandra med interpolering {{firstName}} {{lastName}}.
 
+### Övning 0.9 - Computed & Watchers
+Skapa Computed och Watch exemplen i powerpoint presentationen och försök förstå vad dem gör.
+
 ### Övning 1 - Hello From GroupX
 3. I en valfri komponent i projektet skapa en rubrik med texten "Hello From GroupX" tillsammans med en lista på namnen av alla grupp medlemmar.
 "Hello From GroupX" och listan ska deklareras som vue data variabler.
