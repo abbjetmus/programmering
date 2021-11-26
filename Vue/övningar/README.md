@@ -55,7 +55,7 @@ Skapa sedan en img-tagg vars src-attribut binder till image variabeln och visar 
 ### Övning 0.8 - Två-vägs bindning och computed (beräknade variabler)
 1. Skapa två data-variabler för firstName och lastName.
 2. Skapa en input-fält som har två-vägbindning med lastName dvs **v-model**.
-3. Skapa computed variabel som skriver ut fullName.
+3. Visa för och efternamn brevid varandra med interpolering {{firstName}} {{lastName}}.
 
 ### Övning 1 - Hello From GroupX
 3. I en valfri komponent i projektet skapa en rubrik med texten "Hello From GroupX" tillsammans med en lista på namnen av alla grupp medlemmar.
