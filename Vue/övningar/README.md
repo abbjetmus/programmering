@@ -60,6 +60,23 @@ Skapa sedan en img-tagg vars src-attribut binder till image variabeln och visar 
 ### Övning 0.9 - Computed & Watchers
 Skapa Computed och Watch exemplen i powerpoint presentationen och försök förstå vad dem gör.
 
+### Övning 0.10 - Class-bindning
+1. Skapa en div.
+2. Skapa två klasser innanför style taggen som heter green-background och red-background.
+Som ger diven följande egenskaper, men ska ha olika färger dvs grönt och rött.
+
+```
+  width: 200px;
+  height: 200px;
+  background-color: green;
+``` 
+
+3. Skapa en variabel isGreen som bestämmer vilken klass som appliceras på diven med hjälp av class-bindning.
+4. Skapa en knapp som ändrar på isGreen och sedan på klassen.
+
+### Övning 0.10 - Style-bindning
+Skapa Computed och Watch exemplen i powerpoint presentationen och försök förstå vad dem gör.
+
 ### Övning 1 - Hello From GroupX
 3. I en valfri komponent i projektet skapa en rubrik med texten "Hello From GroupX" tillsammans med en lista på namnen av alla grupp medlemmar.
 "Hello From GroupX" och listan ska deklareras som vue data variabler.
