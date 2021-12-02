@@ -86,6 +86,12 @@ Skapa Computed och Watch exemplen i powerpoint presentationen och försök förs
 2. Skapa 4 variabler i data-sektionen för att spara det som matas in.
 3. Skapa en knapp som skriver det som matats in i ***alert()***
 
+### Övning 1.2 - Flera komponenter
+1. Skapa 4 input-fält för address, postnummer, stad och land.
+
+![Komponenter](./komponents.png)
+
+
 ### Övning 2 - Skapa en data-bunden komponent
 Lägg till en ny komponent för att visa ett lektions-event med hjälp av html och datat nedan.<br>
 Det du behöver göra:
