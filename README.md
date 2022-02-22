@@ -1,4 +1,5 @@
 # Programmering
+Kalle
 Välkommen till kursen Programmering på ABB Industrigymnasium 2021. Under kursens gång kommer vi gå igenom de tre språken som används för att programmera mot webben HTML/CSS/JavaScript. 
 
 Efter det kommer vi lära oss hur man bygger mer avancerade applikationer med ramverk Vue.js.
