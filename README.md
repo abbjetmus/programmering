@@ -1,5 +1,5 @@
 # Programmering 1
-# Välkommen till kursen Programmering 1 på ABB Industrigymnasium 2022. Under kursens gång kommer vi gå igenom de tre språken som används för att programmera mot webben HTML/CSS/JavaScript. Även om teknikerna oftast används mot webben så går det bygga alla typer av applikationer med dem.
+Välkommen till kursen Programmering 1 på ABB Industrigymnasium 2022. Under kursens gång kommer vi gå igenom de tre språken som används för att programmera mot webben HTML/CSS/JavaScript. Även om teknikerna oftast används mot webben så går det bygga alla typer av applikationer med dem.
 
 När vi lärt oss grunderna kommer vi lära oss hur man bygger mer avancerade applikationer med javascript-ramverket Vue.js.
 
