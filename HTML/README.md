@@ -114,9 +114,42 @@ HTML-element markerar delar av innehåll som "det här är en rubrik", "det här
 
 
 
-## 12. Layout
+## 12. Head
 ### Resurser
 [W3Schools Tables](https://www.w3schools.com/html/html_tables.asp)
 ### Övningsuppgift
 [Övning Headings](https://javascript.info/variables)
 
+## 13. Layout
+### Resurser
+[W3Schools Tables](https://www.w3schools.com/html/html_tables.asp)
+### Övningsuppgift
+[Övning Headings](https://javascript.info/variables)
+
+## 14. Layout
+### Resurser
+[W3Schools Tables](https://www.w3schools.com/html/html_tables.asp)
+### Övningsuppgift
+[Övning Headings](https://javascript.info/variables)
+
+## 15. Layout
+### Resurser
+[W3Schools Layout](https://www.w3schools.com/html/html_tables.asp)
+### Övningsuppgift
+[Övning Layout](https://javascript.info/variables)
+
+## 16. HTML Style Guide
+### Resurser
+[W3Schools Tables](https://www.w3schools.com/html/html_tables.asp)
+
+## 17. Formulär
+### Resurser
+[W3Schools Forms](https://www.w3schools.com/html/html_forms.asp)
+### Övningsuppgift
+[Övning Formulär](https://javascript.info/variables)
+
+## 18. Media
+### Resurser
+[W3Schools Media](https://www.w3schools.com/html/html_media.asp)
+### Övningsuppgift
+[Övning Media](https://javascript.info/variables)
