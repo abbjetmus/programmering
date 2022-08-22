@@ -33,7 +33,9 @@ Kursens resurser kommer finnas här på Github och följande länkar.
 
 
 # Testmiljö
-Det finns många sätt att testa sin kod, här är dem två exempel.
+Det finns många sätt att testa sin kod, här är dem två exempel vi föreslår i början, men på sikt är det bäst att köra Visual Studio Code.
+
+**Visual Studio Code** är programmerings-editor (ett program vi använder för att skriva kod i).
 
 1. Skapa en mappstruktur som tex C:/programmering  
 För JavaScript skapar du en under-mapp med namnet JavaScript.
@@ -48,6 +50,8 @@ I filen **test.html** lägger du in en script tagg:
 
 Innanför script-taggen kan du skriva din javascript.
 För att se resultatet från koden öppnar du filen från mappen i webbläsaren. I webbläsaren klickar du på tangenten F12 för att öppna **developer-tools** och **konsol-fönstret**.
+
+Man när man gör ändringar i sin fil så måste man ladda om sidan i webbläsaren. Men genom ett tillägg som heter LiveServer i Visual Studio Code kan man öppna filen så att den uppdateras live.
 
 2. Eller så kan man testa i en online miljö som heter Plunker.  
 Här är en länk till en plunk som ni kan använda: <https://plnkr.co/edit/9OnAVyIK7Tk1cP6d> 
