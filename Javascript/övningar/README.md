@@ -1,10 +1,11 @@
 # Övningar
 
-## W3Schools - Javascript Övningar
-Gör all övningar på den här länken <https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_variables1/>
-
 ## 1.1 Variabler
 ### Övningsuppgifter
+**Övning 0 - Jobba med variabler**
+  1. Deklarera 3 variabler **name**, **age**, **hasDriverLicense** med värden **"Kalle Kula"**, **18**, **true**.
+  2. Skriv sedan ut alla variabler till konsolen.
+
 **Övning 1 - Jobba med variabler**
    1. Deklarera två variabler: `admin` och `name`.
    2. Tilldela värdet `John` till `name`.
@@ -35,13 +36,17 @@ Fundera över vad du tror följande har för datatyper, skriv det på ett papper
 8. `null`
 9. `5 > 4`
 
-Skriv sedan ut med `alert()` typerna med `typeof()` konstruktionen.
+Skriv sedan ut med `console.log()` typerna med `typeof()` konstruktionen.
 Blev utskrifterna det du förväntade dig?
   
 ## 1.3 Operatorer
 ### Övningsuppgifter
-**Övning 1 - Postfix och prefix formerna**
 
+**Övning 0 - addera, subtrahera, multiplicera**
+  1. Skapa 2 variabler med valfria tal (tex tal1 = 5).
+  2. Skriv sedan ut *addition*, *subtration* och *multiplikation* av talen med variablerna och *console.log()*
+
+**Övning 1 - Postfix och prefix formerna**  
 Vilka är de slutliga värdena för alla variabler a, b, c och d efter koden nedan?
 ```
 let a = 1, b = 1;
@@ -50,7 +55,7 @@ let c = ++a; // ?
 let d = b++; // ?
 ```
 
-Bekräfta det sedan genom att skriva ut `c` och `d` med `alert()`.
+Bekräfta det sedan genom att skriva ut `c` och `d` med `console.log()`.
 
 **Övning 2 - tilldelningsresultat**<br>
 Vilka är värdena för a och x efter koden nedan?
@@ -95,7 +100,7 @@ Bekfräfta det med `alert()`.
 6. null == "\n0\n"
 7. null === +"\n0\n"
 ```
-Bekfräfta det med `alert()`.
+Bekfräfta det med `console.log()`.
 
 ## 1.5 If-satser
 ### Övningsuppgifter

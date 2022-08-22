@@ -1,30 +1,56 @@
 # Programmering 1
-Välkommen till kursen Programmering 1 på ABB Industrigymnasium 2022. Under kursens gång kommer vi gå igenom de tre språken som används för att programmera mot webben HTML/CSS/JavaScript. Även om teknikerna oftast används mot webben så går det bygga alla typer av applikationer med dem.
+Välkommen till kursen Programmering 1 på ABB Gymnasiet 2022. Under kursens gång kommer vi gå igenom de tre språken som används för att programmera mot webben HTML/CSS/JavaScript. Även om teknikerna oftast används mot webben så går det bygga alla typer av applikationer med dem.
 
 När vi lärt oss grunderna kommer vi lära oss hur man bygger mer avancerade applikationer med javascript-ramverket Vue.js.
 
-Vi kommer även lära oss hur man kommunicerar med webbtjänster genom HTTP-protokollet och databaser ifrom av Firebase.
+Vi kommer även lära oss hur man kommunicerar med webbtjänster genom HTTP-protokollet och databaser iform av Firebase.
 
 Dessa tekniker kommer vi applicera på olika projekt som till exempel bygga en uppkopplad termometer eller en robot bil.
-Projekten är i samarbete med andra kurser.
+Projekten är i samarbete med andra kurser som Andreas och Pär undervisar.
 
 ![alt text](https://cdn.bamahadigital.com/q:i/r:1/wp:1/w:372/u:https://bamahadigital.com/wp-content/uploads/2021/03/wa2.png "Web Anatomy")
 
-Undervisningen kommer bestå av lärarledda genomgångar av olika koncept i kombination med övningar och en utbildningsserie på Youtube: 
+## HTML
+Kort så är **HTML** en webbsidas struktur och innehåll på samma sett som vårt skelett är för kroppen.
 
-[Net Ninja - HMTL/CSS](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G)
+## CSS
+**CSS** Är det som ger en webbsida utseende och design i form av färger och positionering. På samma sätt som huden, färgen och kläderna på människan.
 
-[Webbskolan - Svensk serie täcker inte allt](https://www.youtube.com/channel/UCHaWpdVsQrcuEIKAqaMCvXg)
+## JavaScript
+**JavaScript** är det som ger funktionalitet till en webbsida, att något ska hända när man klickar på en knapp osv. Motsvarande för människokroppen är nervsystemet och härnan som tillsammans får kroppen att röra på sig.
 
-[Net Ninja - JavaScript](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
+## Övergripande resurser för denna modul:
+Undervisningen kommer bestå av lärarledda genomgångar av olika koncept i kombination med övningar och en utbildningsserie på Youtube.
+
+Kursens resurser kommer finnas här på Github och följande länkar. 
+
+- [W3School Javascript](https://www.w3schools.com/js/default.asp)
+- [W3School HTML](https://www.w3schools.com/html/)
+- [W3School CSS](https://www.w3schools.com/css/default.asp)
+- [HTML/CSS av The Net Ninja på Youtube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G)
+- [Modern Javascript av The Net Ninja på Youtube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
 
 
 
-## Testmiljö
+# Testmiljö
+Det finns många sätt att testa sin kod, här är dem två exempel.
 
-När vi testar våran JavaScript kod så kommer vi börja med att göra det i Plunker som är en online miljö för att testa webbtekniker.
+1. Skapa en mappstruktur som tex C:/programmering  
+För JavaScript skapar du en under-mapp med namnet JavaScript.
+I javascript mappen öppnar du Visual Studio Code. Från Visual Studio Code skapar du en fil tex **test.html**.
+I filen **test.html** lägger du in en script tagg:  
+```html
+<script>
+    let x = 5
+    console.log(x)
+</script>
+```
 
-Här är en länk till en plunk som ni kan använda: <https://plnkr.co/edit/9OnAVyIK7Tk1cP6d>
+Innanför script-taggen kan du skriva din javascript.
+För att se resultatet från koden öppnar du filen från mappen i webbläsaren. I webbläsaren klickar du på tangenten F12 för att öppna **developer-tools** och **konsol-fönstret**.
+
+2. Eller så kan man testa i en online miljö som heter Plunker.  
+Här är en länk till en plunk som ni kan använda: <https://plnkr.co/edit/9OnAVyIK7Tk1cP6d> 
 
 ## W3Schools
 Mycket bra sida för HTML, CSS och JavaScript <https://www.w3schools.com/default.asp> som vi kommer utgå ifrån.

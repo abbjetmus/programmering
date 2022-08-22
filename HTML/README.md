@@ -1,10 +1,10 @@
 # HTML
-HTML står för Hyper Text Markup Language
-HTML är standardspråket för att skapa webbsidor
-HTML beskriver strukturen på en webbsida
-HTML består av en rad serie element
-HTML-element talar om för webbläsaren hur innehållet ska visas
-HTML-element markerar delar av innehåll som "det här är en rubrik", "det här är ett stycke", "det här är en länk" etc.
+* HTML står för Hyper Text Markup Language
+* HTML är standardspråket för att skapa webbsidor
+* HTML beskriver strukturen på en webbsida
+* HTML består av en rad serie element
+* HTML-element talar om för webbläsaren hur innehållet ska visas
+* HTML-element markerar delar av innehåll som "det här är en rubrik", "det här är ett stycke", "det här är en länk" etc.
 
 ## Innehåll
 0. HTML-dokument
