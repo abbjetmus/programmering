@@ -65,35 +65,35 @@ Här är en länk till en plunk som ni kan använda: <https://plnkr.co/edit/9OnA
 [W3Schools Variabels](https://www.w3schools.com/js/js_variables.asp)  
 
 ### Övningsuppgifter
-[Övningar Variabler](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#11-variabler)
+[Övningar Variabler](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#11-variabler)
 
 ## 1.2 Datatyper
 ### Resurser
 [W3Schools Datatypes](https://www.w3schools.com/js/js_datatypes.asp)
 
 ### Övningsuppgifter
-[Övningar Datatyper](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#12-datatyper)
+[Övningar Datatyper](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-1)
   
 ## 1.3 Operatorer
 ### Resurser
 [W3Schools Operators](https://www.w3schools.com/js/js_operators.asp)
 
 ### Övningsuppgifter
-[Övningar Operatorer](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#13-operatorer)
+[Övningar Operatorer](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#13-operatorer)
 
 ## 1.4 Jämförelser
 ### Resurser
 [W3Schools Comparisons](https://www.w3schools.com/js/js_comparisons.asp)
 
 ### Övningsuppgifter
-[Övningar Jämförelser](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#14-j%C3%A4mf%C3%B6relser)
+[Övningar Jämförelser](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-3)
 
 ## 1.5 If-satser
 ### Resurser
 [W3Schools If-statement](https://www.w3schools.com/js/js_if_else.asp)
 
 ### Övningsuppgifter
-[Övningar If-satser](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#15-if-satser)
+[Övningar If-satser](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-4)
 
 ## 1.6 Loopar: while och for
 ### Resurser
@@ -101,7 +101,7 @@ Här är en länk till en plunk som ni kan använda: <https://plnkr.co/edit/9OnA
 [W3Schools Loops: while](https://www.w3schools.com/js/js_loop_while.asp)
 
 ### Övningsuppgifter
-[Övningar Loopar: while och for](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#16-loopar-while-och-for)
+[Övningar Loopar: while och for](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-5)
 
 ## 1.7 Switch-satsen
 
@@ -109,21 +109,21 @@ Här är en länk till en plunk som ni kan använda: <https://plnkr.co/edit/9OnA
 [W3Schools The "Switch" statement](https://www.w3schools.com/js/js_switch.asp)
 
 ### Övningsuppgifter
-[Övningar Switch-satsen](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#17-switch-satsen)
+[Övningar Switch-satsen](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-6)
 
 ## 1.7 Funktioner
 ### Resurser
 [W3Schools Functions](https://www.w3schools.com/js/js_functions.asp)
 
 ### Övningsuppgifter
-[Övningar Fuktioner](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#17-funktioner)
+[Övningar Fuktioner](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-7)
 
 ## 1.8 Arrow functions (pil-funktioner)
 ### Resurser
 [W3Schools Arrow-functions](https://www.w3schools.com/js/js_arrow_function.asp)
 
 ### Övningsuppgifter
-[Övningar Arrow functions](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#18-arrow-functions-pil-funktioner)
+[Övningar Arrow functions](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-8)
 
 
 ## 1.9 Objekt
@@ -131,14 +131,14 @@ Här är en länk till en plunk som ni kan använda: <https://plnkr.co/edit/9OnA
 [W3Schools Objects](https://www.w3schools.com/js/js_objects.asp)
 
 ### Övningsuppgifter
-[Övningar Objekt](https://github.com/abbjoafli/Programmering-1/tree/master/1.Javascript/%C3%B6vningar#19-objekt)
+[Övningar Objekt](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-9)
 
 ## 1.10 Listor (Arrays)
 ### Resurser
 [W3Schools Arrays](https://www.w3schools.com/js/js_arrays.asp)
 
 ### Övningsuppgifter
-[Övningar Arrays](https://github.com/abbjoafli/Programmering-1/blob/master/1.Javascript/%C3%B6vningar/README.md#110-listor-array)
+[Övningar Arrays](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-10)
 
 
 # 5. Webbläsaren - DOM (Document Object Model) - BOM (Browser Object Model) - Events
