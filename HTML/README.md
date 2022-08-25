@@ -50,8 +50,6 @@
 ## 4. Paragrafer
 ### Resurser
 [W3Schools Paragraf](https://www.w3schools.com/html/html_paragraphs.asp)
-### Övningsuppgift
-[Övning Headings](https://javascript.info/variables)
 
 ## 5. Länkar
 ### Resurser
@@ -62,14 +60,10 @@
 ## 6. Bilder
 ### Resurser
 [W3Schools Images](https://www.w3schools.com/html/html_headings.asp)
-### Övningsuppgift
-[Övning Headings](https://javascript.info/variables)
 
 ## 7. Listor
 ### Resurser
 [W3Schools Lists](https://www.w3schools.com/html/html_lists.asp)
-### Övningsuppgift
-[Övning Headings](https://javascript.info/variables)
 
 ## 8. Tabeller
 ### Resurser
@@ -117,20 +111,14 @@
 ## 12. Head
 ### Resurser
 [W3Schools Tables](https://www.w3schools.com/html/html_tables.asp)
-### Övningsuppgift
-[Övning Headings](https://javascript.info/variables)
 
 ## 13. Layout
 ### Resurser
 [W3Schools Tables](https://www.w3schools.com/html/html_tables.asp)
-### Övningsuppgift
-[Övning Headings](https://javascript.info/variables)
 
 ## 14. Layout
 ### Resurser
 [W3Schools Tables](https://www.w3schools.com/html/html_tables.asp)
-### Övningsuppgift
-[Övning Headings](https://javascript.info/variables)
 
 ## 15. Layout
 ### Resurser
@@ -145,11 +133,8 @@
 ## 17. Formulär
 ### Resurser
 [W3Schools Forms](https://www.w3schools.com/html/html_forms.asp)
-### Övningsuppgift
-[Övning Formulär](https://javascript.info/variables)
 
 ## 18. Media
 ### Resurser
 [W3Schools Media](https://www.w3schools.com/html/html_media.asp)
-### Övningsuppgift
-[Övning Media](https://javascript.info/variables)
+
