@@ -3,6 +3,30 @@
 ## W3Schools - CSS Övningar
 Gör alla övningar på den här länken <https://www.w3schools.com/css/exercise.asp/>
 
+## Övning 0. CSS Selectorer
+
+1. Utgå från HTML-koden nedan och lägg in det i en HTML fil som du skapar.
+2. Lägg en <style></style> tagg innanför head-taggen där din CSS ska ligga.
+3. Sätt styles med tagg-namn på alla p-taggar och sätt bakgrundsfärg.
+4. Applicera samma *class* på alla h2-taggar och sätt bakgrundsfärg.
+5. Applicera en *id* på h1-taggen och sätt en annan bakgrundsfärg.
+```
+<h1>Type selectors</h1>
+
+<h2>Veggies</h2>
+<p>Veggies es bonus vobis, proinde vos postulo essum magis <span>kohlrabi welsh onion</span> daikon amaranth tatsoi tomatillo
+    melon azuki bean garlic.</p>
+
+<h2>Gumbo</h2>
+<p>Gumbo beet greens corn soko <strong>endive</strong> gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard
+    greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+
+<h2>Turnip</h2>
+<p>Turnip greens yarrow ricebean rutabaga <em>endive cauliflower</em> sea lettuce kohlrabi amaranth water spinach avocado
+    daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach
+</p>
+```
+
 ## Övning 1. Tre sätt att lägga till CSS
 Det finns tre sätt att lägga till CSS:
 1. Inline CSS
