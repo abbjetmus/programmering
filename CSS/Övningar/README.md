@@ -9,8 +9,10 @@ Gör alla övningar på den här länken <https://www.w3schools.com/css/exercise
 2. Lägg en <style></style> tagg innanför head-taggen där din CSS ska ligga.
 3. Sätt styles med tagg-namn på alla p-taggar och sätt bakgrundsfärg.
 4. Applicera samma *class* på alla h2-taggar och sätt bakgrundsfärg.
-5. Applicera en *id* på h1-taggen och sätt en annan bakgrundsfärg.
-```
+5. Applicera en *id* på h1-taggen och sätt en annan bakgrundsfärg.  
+
+
+```html
 <h1>Type selectors</h1>
 
 <h2>Veggies</h2>
@@ -38,3 +40,25 @@ Det finns tre sätt att lägga till CSS:
 3. CSS:en som rektanglarna ska ha är bredden 200px och vidden 200px. Och en av varje rektangel ska vara gul, röd och grön bakgrundsfärg.
 
 
+## Övning 2. Box modellen
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+</style>
+</head>
+<body>
+
+<h2>Demonstrating the Box Model</h2>
+
+<p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
+
+<div>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+</body>
+</html>
+```
+
+![alt text](./box-model.png)
