@@ -104,6 +104,12 @@ Bekfräfta det med `console.log()`.
 
 ## 1.5 If-satser
 ### Övningsuppgifter
+
+**Övning 0. If sats**
+1. Ta en ett namn från användaren med *prompt* och tilldela det till en variabel name.
+2. Används if-sats för att kontrollera om namnet är "Kalle". Stämmer det skriv ut "Du heter Kalle".
+3. Utöka sedan med else del där du skriver du skriver ut "Du heter inte Kalle!".
+
 **Övning 1. If (en sträng med noll)**<br>
 Kommer `Hejsan!` att visas?
 ```
