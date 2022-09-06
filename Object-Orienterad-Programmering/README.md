@@ -1,4 +1,4 @@
-Den här modulen beskriver en väldigt viktig gren inom programmering som kallas Objekt Orienterad Programmering. Det är det populäraste och vanligaste sättet att bygga applikationer och system med. 
+Den här modulen beskriver en väldigt viktig gren inom programmering som kallas Objekt Orienterad Programmering. Det är det populäraste och vanligaste sättet att bygga applikationer och system med. Istället för att bara ha logic, funktioner och event så organiseras allt kring begreppet objekt.  
 Exempel på språk som är OOP är Java, JavaScript, C#, C++, Python osv. 
 
 Den här delen är en förberedande del för att vi ska kunna förstå och bygga spel i Unity.
@@ -9,6 +9,7 @@ Undervisningen kommer bestå av lärarledda genomgångar av olika koncept i OOP 
 Kursens resurser kommer finnas här på Github och följande länkar. 
 
 - [W3Schools C#](https://www.w3schools.com/cs/cs_intro.php)  
+- [OOPS Concepts In C#: Object Oriented Programming Concept Tutorial](https://www.softwaretestinghelp.com/c-sharp/oops-concepts-in-csharp/)
 
 Vi kommer använda materialet på W3Schools om C#. Skulle man missa någon lektion så är det bara kolla där, man bör ha koll på det mesta där.
 
@@ -25,4 +26,21 @@ På den här länken finns det det mycket övningar. Viktigaste övningarna är 
 När vi gör övningarna gör vi dem som konsolapplikationer.
 
 ## Projekt
-När vi gått igenom grunderna kommer ni få applicera kunskaperna på ett projekt som också kommer vara konsolapplikation. Mer information om projektet och kriterierna kommer. 
+När vi gått igenom grunderna kommer ni få applicera kunskaperna på ett projekt som också kommer vara konsolapplikation.  
+
+Ni får bygga en valfri enklare applikation som en konsolapplikation. Exempel på applikationer man kan bygga är spel, väder-applikation, hämtar data från API. På bilden nedan finns en del förslag:
+
+![alt text](./conosle-apps-ideas.png)
+
+### Kriterier för projektet
+
+1. Ska vara en konsolapplikation.
+2. Ska ta in information från användaren i konsolen.
+3. Ska skriva ut information till konsolen.
+4. Ska byggas så att den använder sig av koncept från objekt orienterad programmering.
+* Encapsulation (Enkapsulering)
+* Polymorphism (Polymorfism)
+* Inhertance (Arv)
+* Abstraction (Abstraktion)
+
+
