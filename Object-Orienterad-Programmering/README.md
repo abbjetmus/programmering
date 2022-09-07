@@ -28,7 +28,7 @@ När vi gör övningarna gör vi dem som konsolapplikationer.
 ## Projekt
 När vi gått igenom grunderna kommer ni få applicera kunskaperna på ett projekt som också kommer vara konsolapplikation.  
 
-Ni får bygga en valfri enklare applikation som en konsolapplikation. Exempel på applikationer man kan bygga är spel, väder-applikation, hämtar data från API. På bilden nedan finns en del förslag:
+Ni får bygga en valfri applikation som en konsolapplikation. Exempel på applikationer man kan bygga är spel, väder-applikation, hämtar data från API osv. På bilden nedan finns en del förslag:
 
 ![alt text](./conosle-apps-ideas.png)
 
@@ -43,4 +43,9 @@ Ni får bygga en valfri enklare applikation som en konsolapplikation. Exempel p�
 * Inhertance (Arv)
 * Abstraction (Abstraktion)
 
+I princip gör alla applikationer det som är byggda i C# men försök tänka objekt orienterat. Bryt ned det ni vill bygga i relevanta objekt som interagerar med varandra.
 
+### Exempel applikation
+Här är en snabb implementering av spelet LuffarSchack (tre i rad), klona projektet och testa det. Titta på koden och försök förstå hur det är uppbyggt. Det är vanligt att konsolapplikationer använder sig av en oändlig while-loop.
+
+- [LuffarSchack C#](https://github.com/abbjetmus/LuffarSchack)  
