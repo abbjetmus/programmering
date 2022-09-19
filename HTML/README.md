@@ -14,11 +14,11 @@
 4. Paragraf - Text
 5. Link - Länkar
 6. Images - Bilder
-7. Listor
+7. Listor <br>
 [Övning 1](https://github.com/abbjetmus/programmering/tree/master/HTML/%C3%96vningar#%C3%B6vning-1---g%C3%B6r-sidan-p%C3%A5-bilden-med-html)
-17. Formulär
+17. Formulär<br>
 [Övning 2](https://github.com/abbjetmus/programmering/tree/master/HTML/%C3%96vningar#%C3%B6vning-2---g%C3%B6r-sidan-p%C3%A5-bilden-med-html)
-9. Block & Inline
+9. Block & Inline <br>
 [Övning 3](https://github.com/abbjetmus/programmering/tree/master/HTML/%C3%96vningar#%C3%B6vning-3---g%C3%B6r-sidan-p%C3%A5-bilden-med-html)
 10. Class
 11. Id
