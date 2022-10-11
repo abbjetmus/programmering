@@ -1,32 +1,40 @@
 # Övningar
 
 ## 1.1 Variabler
+
 ### Övningsuppgifter
+
 **Övning 0 - Jobba med variabler**
-  1. Deklarera 3 variabler **name**, **age**, **hasDriverLicense** med värden **"Kalle Kula"**, **18**, **true**.
-  2. Skriv sedan ut alla variabler till konsolen.
+
+1. Deklarera 3 variabler **name**, **age**, **hasDriverLicense** med värden **"Kalle Kula"**, **18**, **true**.
+2. Skriv sedan ut alla variabler till konsolen.
 
 **Övning 1 - Jobba med variabler**
-   1. Deklarera två variabler: `admin` och `name`.
-   2. Tilldela värdet `John` till `name`.
-   3. Kopiera värdet från `name` till `admin`.
-   4. Skriv ut värdet på `admin` med `alert()` (borde visa "John").
+
+1.  Deklarera två variabler: `admin` och `name`.
+2.  Tilldela värdet `John` till `name`.
+3.  Kopiera värdet från `name` till `admin`.
+4.  Skriv ut värdet på `admin` med `alert()` (borde visa "John").
 
 **Övning 2 - Rätt namngivning på variabler**
-   1. Skapa en variabel med namnet på vår planet. Hur skulle du namnge en sådan variabel?
-   2. Skapa en variabel för att lagra namnet på en aktuell besökare på en webbplats. Hur skulle du namnge den variabeln?
+
+1.  Skapa en variabel med namnet på vår planet. Hur skulle du namnge en sådan variabel?
+2.  Skapa en variabel för att lagra namnet på en aktuell besökare på en webbplats. Hur skulle du namnge den variabeln?
 
 **Övning 3 - Jobba med konstanter**
-   1. Skapa en konstant `pi` med pi-värdet och 3 decimaler.
-   2. Tilldela `pi` ett annat värde.
-   3. Skriv ut `pi` med `alert()`, vad händer och varför?
-   
-## 1.2 Datatyper
-### Övningsuppgifter
-**Övning 1 - Skriv ut datatyperna** <br>
-Fundera över vad du tror följande har för datatyper, skriv det på ett papper 
 
-1. `undefined`  
+1.  Skapa en konstant `pi` med pi-värdet och 3 decimaler.
+2.  Tilldela `pi` ett annat värde.
+3.  Skriv ut `pi` med `alert()`, vad händer och varför?
+
+## 1.2 Datatyper
+
+### Övningsuppgifter
+
+**Övning 1 - Skriv ut datatyperna** <br>
+Fundera över vad du tror följande har för datatyper, skriv det på ett papper
+
+1. `undefined`
 2. `0`
 3. `3.14`
 4. `"3.14"`
@@ -38,16 +46,19 @@ Fundera över vad du tror följande har för datatyper, skriv det på ett papper
 
 Skriv sedan ut med `console.log()` typerna med `typeof()` konstruktionen.
 Blev utskrifterna det du förväntade dig?
-  
+
 ## 1.3 Operatorer
+
 ### Övningsuppgifter
 
 **Övning 0 - addera, subtrahera, multiplicera**
-  1. Skapa 2 variabler med valfria tal (tex tal1 = 5).
-  2. Skriv sedan ut *addition*, *subtration* och *multiplikation* av talen med variablerna och *console.log()*
+
+1. Skapa 2 variabler med valfria tal (tex tal1 = 5).
+2. Skriv sedan ut _addition_, _subtration_ och _multiplikation_ av talen med variablerna och _console.log()_
 
 **Övning 1 - Postfix och prefix formerna**  
 Vilka är de slutliga värdena för alla variabler a, b, c och d efter koden nedan?
+
 ```
 let a = 1, b = 1;
 
@@ -59,6 +70,7 @@ Bekräfta det sedan genom att skriva ut `c` och `d` med `console.log()`.
 
 **Övning 2 - tilldelningsresultat**<br>
 Vilka är värdena för a och x efter koden nedan?
+
 ```
 let a = 2;
 
@@ -69,6 +81,7 @@ Bekräfta det sedan genom att skriva ut `a` och `x` med `alert()`.
 
 **Övning 3 - typkonverteringar**<br>
 Vad är resultatet av dessa uttryck?
+
 ```
 1. "" + 1 + 0
 2. "" - 1 + 0
@@ -86,12 +99,16 @@ Vad är resultatet av dessa uttryck?
 14. undefined + 1
 15. " \t \n" - 2
 ```
+
 Bekfräfta det med `alert()`.
 
 ## 1.4 Jämförelser
+
 ### Övningsuppgifter
+
 **Övning 1. Vad blir resultatet för dessa uttryck?**
-``` 
+
+```
 1. 5 > 4
 2. "apple" > "pineapple"
 3. "2" > "12"
@@ -100,23 +117,28 @@ Bekfräfta det med `alert()`.
 6. null == "\n0\n"
 7. null === +"\n0\n"
 ```
+
 Bekfräfta det med `console.log()`.
 
 ## 1.5 If-satser
+
 ### Övningsuppgifter
 
 **Övning 0. If sats**
-1. Ta en ett namn från användaren med *prompt* och tilldela det till en variabel name.
+
+1. Ta en ett namn från användaren med _prompt_ och tilldela det till en variabel name.
 2. Används if-sats för att kontrollera om namnet är "Kalle". Stämmer det skriv ut "Du heter Kalle".
 3. Utöka sedan med else del där du skriver du skriver ut "Du heter inte Kalle!".
 
 **Övning 1. If (en sträng med noll)**<br>
 Kommer `Hejsan!` att visas?
+
 ```
 if ("0") {
   alert( 'Hejsan!' );
 }
 ```
+
 Testa koden genom att bekfräfta.
 
 **Övning 2. Namnet Javascript**<br>
@@ -139,6 +161,7 @@ I denna uppgift antar vi att vi alltid får in ett nummer.
 
 **Övning 4. Skriv om 'if' med '?'**<br>
 Skriv om `if` så att vi istället använder `?` operatorn:
+
 ```
 let result;
 let a = 1;
@@ -152,9 +175,12 @@ if (a + b < 4) {
 ```
 
 ## 1.6 Loopar: while och for
+
 ### Övningsuppgifter
+
 **Övning 1. Sista loop värdet**<br>
 Vad är det sista värdet som skrivs till konsolen med den här koden? Varför?
+
 ```
 let i = 3;
 
@@ -167,12 +193,16 @@ while (i) {
 För varje loop-iteration, skriv ner vilket värde det matar ut och jämför sedan det med lösningen.
 
 Båda looparna skriver ut samma värden eller inte?
+
 1. prefix formen `++i`:
+
 ```
 let i = 0;
 while (++i < 5) alert( i );
 ```
+
 2. postfix formen `i++`:
+
 ```
 let i = 0;
 while (i++ < 5) alert( i );
@@ -182,11 +212,15 @@ while (i++ < 5) alert( i );
 För varje loop ska du skriva ner vilka värden den ska visa. Jämför sedan med svaret.
 
 Båda looparna skriver ut samma värden eller inte?
+
 1. postfix formen:
+
 ```
 for (let i = 0; i < 5; i++) alert( i );
 ```
+
 2. prefix formen:
+
 ```
 for (let i = 0; i < 5; ++i) alert( i );
 ```
@@ -196,6 +230,7 @@ Använd `for`-loopen för att skriva ut jämna siffror från `2` till `10`.
 
 **Övning 5. Ersätt "for"-loopen med "while"-loopen**<br>
 Skriv om koden som ändrar `for`-loopen till `while`-loopen utan att ändra dess beteende (utgången ska förbli densamma).
+
 ```
 for (let i = 0; i < 3; i++) {
   alert( `number ${i}!` );
@@ -203,9 +238,12 @@ for (let i = 0; i < 3; i++) {
 ```
 
 ## 1.7 Switch-satsen
+
 ### Övningsuppgifter
+
 **Övning 1. Skriv om "switch"-satsen till "if"-satser**<br>
 Skriv koden med `if..else` som motsvarar följande switch:
+
 ```
 switch (browser) {
   case 'Edge':
@@ -226,6 +264,7 @@ switch (browser) {
 
 **Övning 2. Skriv om "if"-satserna till "switch"-satsen**<br>
 Skriv im koden nedan med hjälp av ett enda `switch`-sats:
+
 ```
 let a = +prompt('a?', '');
 
@@ -242,10 +281,13 @@ if (a == 2 || a == 3) {
 ```
 
 ## 1.7 Funktioner
+
 ### Övningsuppgifter
+
 **Övning 1. Skriv om "switch"-satsen till "if"-satser**<br>
 Följande funktion returnerar sant om parametern `age` är högre än 18.
 Annars skriver den ut "Du är för ung tyvärr!":
+
 ```
 function checkAge(age) {
   if (age > 18) {
@@ -256,7 +298,9 @@ function checkAge(age) {
   }
 }
 ```
+
 Fungerar funktionen annorlunda om `else` delen tas bort?
+
 ```
 function checkAge(age) {
   if (age > 18) {
@@ -267,10 +311,10 @@ function checkAge(age) {
 }
 ```
 
-
 **Övning 2. Skriv om funktionen med '?' eller '||'**<br>
 Följande funktion returnerar sant om parametern `age` är högre än 18.
 Annars skriver den ut "Du är för ung tyvärr!":
+
 ```
 function checkAge(age) {
   if (age > 18) {
@@ -285,15 +329,16 @@ function checkAge(age) {
 **Övning 3. Funktionen min(a, b)**<br>
 Skriv en funktion `min(a, b)` som returnerar det minsta av två siffror `a` och `b`.
 Till exempel:
+
 ```
 min(2, 5) == 2
 min(3, -1) == -1
 min(1, 1) == 1
 ```
 
-
 **Övning 4. Fuktionen pow(x, n)**<br>
 Skriv en funktion `pow(x, n)` som returnerar `x` i potens `n`. Eller med andra ord multiplicerar `x` med sig `n` gånger och returnerar resultatet. Funktionen behöver bara stödja positiva värden 1, 2, 3...
+
 ```
 min(2, 5) == 2
 min(3, -1) == -1
@@ -301,10 +346,13 @@ min(1, 1) == 1
 ```
 
 ## 1.8 Arrow functions (pil-funktioner)
+
 ### Övningsuppgifter
+
 **Övning 1. Funktionen max(a, b)**<br>
 Skriv en funktion `max(a, b)` med arrow-function som returnerar det största av två siffror `a` och `b`.
 Till exempel:
+
 ```
 max(2, 5) == 2
 max(3, -1) == -1
@@ -312,7 +360,9 @@ max(1, 1) == 1
 ```
 
 ## 1.9 Objekt
+
 ### Övningsuppgifter
+
 **Övning 1. Hello Objekt**<br>
 Skriv koden, en rad för varje åtgärd:
 
@@ -325,6 +375,7 @@ Skriv koden, en rad för varje åtgärd:
 **Övning 2. Kolla efter tomhet**<br>
 Skriv funktionen `isEmpty(obj)` som returnerar `true` om objektet inte har några egenskaper, `false` annars.
 Bör fungera så här:
+
 ```
 let schedule = {};
 
@@ -337,6 +388,7 @@ alert( isEmpty(schedule) ); // false
 
 **Övning 3.Summera objekt egenskaper**<br>
 Vi har ett objekt som lagrar löner för vårt team:
+
 ```
 let salaries = {
   John: 100,
@@ -344,6 +396,7 @@ let salaries = {
   Pete: 130
 }
 ```
+
 Skriv koden för att summera alla löner och lagra den variabelb `sum`. Bör vara `390` i exemplet ovan.
 
 Om `salaries` är tomma, måste resultatet vara `0`.
@@ -352,6 +405,7 @@ Om `salaries` är tomma, måste resultatet vara `0`.
 Skapa en funktion `multiplyNumeric(obj)` som multiplicerar alla numeriska egenskaper för `obj` med `2`.
 
 Till exempel:
+
 ```
 // before the call
 let menu = {
@@ -369,13 +423,17 @@ menu = {
   title: "My menu"
 };
 ```
+
 Observera att `multiplyNumeric` inte behöver returnera någonting. Det bör ändra objektet på plats.
 
 P.S. Använd `typeof()` för att kontrollera ifall det är ett nummer.
 
 ## 1.10 Listor (Array)
+
 ### Övningsuppgifter
+
 **Övning 1. Loopa igenom array med namnen i er grupp**<br>
+
 1. Skapa en array med namn på alla gruppmedlemmar.
 2. Använd en for-loop och loopa igenom alla gruppmedlemmar i arrayen/listan.
 3. För varje medlem skriv ut namnet med `alert()`.
@@ -416,12 +474,16 @@ Rap, Reggae, Classics, Rock-n-Roll
 ```
 
 # 2. DOM (Document Object Model) - BOM (Browser Object Model) - Events
+
 ## DOM
 
 ### Övning 2.1
-Skapa en html sida med följande innehåll. Lägg till javascript antingen i en separat fil eller i en script-tagg.
-Använd `document.getElementById()`, `document.getElementsByTagName()` och `document.getElementsByClassName()` för att hämta och skriva ut `div`-taggen, `li`-taggen och `h4 och p`-taggarna.
-Skriv ut med `alert()` och använd egenskapen `.nodeName`. 
+
+1. Skapa en html sida med följande innehåll. Lägg till javascript antingen i en separat fil eller i en script-tagg.
+   Använd `document.getElementById()`, `document.getElementsByTagName()` och `document.getElementsByClassName()` för att hämta och skriva ut `div`-taggen, `li`-taggen och `h4 och p`-taggarna.
+   Skriv ut med `alert()` och använd egenskapen `.nodeName`.
+
+2. Gör samma sak men med `document.querySelector()` och `document.querySelectorAll()` ``
 
 ```
 <html>
@@ -438,6 +500,7 @@ Skriv ut med `alert()` och använd egenskapen `.nodeName`.
 ```
 
 ### Övning 2.2
+
 Skapa en HTML sida med innehållet nedan. Och lägg till javascript enligt uppgift 2.1.
 Svara sedan på frågorna efter koden.
 
@@ -498,7 +561,9 @@ Använd rätt metod för att hämta ut följande med javascript.
 6. The last input in that form.
 
 ## Övning 2.3
+
 Skriv koden för att välja elementet med attributet 'data-widget-name' från dokumentet och skriv ut dess värde.
+
 ```
 <!DOCTYPE html>
 <html>
@@ -514,13 +579,16 @@ Skriv koden för att välja elementet med attributet 'data-widget-name' från do
 ```
 
 ## Övning 2.4
+
 Gör alla externa länkar orange genom att sätta/ändra deras `style`-egenskap.<br>
 En länk är extern om:<br>
 Dess `href` har :// i den. <br>
+
 1. Dvs ni ska hämta alla `<a>`-taggar
 2. Loopa igenom dem med for-loop
 3. Kolla ifall attributet `href` innehåller ://, kan göras med methoden `includes()` google upp den i W3Schools
 4. Sätta färgen `orange` i så fall.
+
 ```
 <a name="list">the list</a>
 <ul>
@@ -536,4 +604,5 @@ Dess `href` har :// i den. <br>
   // your code goes here.
 </script>
 ```
+
 ![DOM 2.4](https://github.com/abbjoafli/Programmering-1/blob/master/1.Javascript/%C3%B6vningar/DOM_2_4.PNG)
