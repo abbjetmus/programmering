@@ -20,54 +20,11 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 
 - Vue förser oss med reaktivitet vilket gör att våra vyer/sidor automagiskt uppdateras när vårat data ändras.
 
-## VUE-CLI
-
-Säkerställ att du har Node.js installerat på din dator genom att öppna ett kommandofönster och skriva:<br>
-`node --version`<br><br>
-
-Node är ett program på din dator som möjliggör att man kan köra JavaScript utanför webbläsaren, och tillhandahåller ett enkelt sätt att hämta JavaScript paket via ett verktyg som heter NPM Node Package Manager.
-
-Jag får upp <i>"Welcome to Node.js v14.17.6."<i> men versionnumret kan skilja för er.
-<br><br>
-Sedan ska ni installera Vue CLI på eran dator genom kommandot:<br>
-`npm install -g @vue/cli`<br><br>
-
-Bekräfta att det installerats genom kommandot: <br>
-`vue --version`<br><br>
-
-Jag får upp <i>"@vue/cli 4.5.12"<i> men versionnumret kan skilja för er.
-<br><br>
-
-## Nytt projekt från start
-
-Vue CLI används för att generera ett projekt och görs via ett kommandofönster. Så börja med att öppna ett kommandofönster.
-Och byt mapp till den platsen du vill skapa projektet<br>
-`cd c:/development/vue`<br><br>
-
-Ange ett namn på projektet du vill skapa<br>
-`vue create projekt-namn`<br><br>
-Byt till mappen som projektet finns i<br>
-`cd projekt-namn`<br><br>
-
-Öppna projektet i Visual Studio Code med kommandot<br>
-`code .`<br><br>
-
-Start upp projektet i en live-server med kommandot<br>
-`npm run serve`<br><br>
-
-## Öppna befintligt projekt
-
-Så börja med att öppna ett kommandofönster och byt mapp till projektets mapp<br>
-`cd c:/development/vue/test-projekt`<br><br>
-
-Öppna projektet i Visual Studio Code med kommandot<br>
-`code .`<br><br>
-
-Start upp projektet i en live-server med kommandot<br>
-`npm run serve`<br><br>
+## Steg 1
+Börja med att hämta ner powerpointen med namnet Vue.pptx och gå igenom innehållet på länkarna och lös övningsuppgifterna.
+- [Vue 3 Hands On](https://vuejs.org/tutorial/#step-1)
 
 ## Övergripande resurser för denna modul:
-
 - [Vue 3 Hands On](https://vuejs.org/tutorial/#step-1)
 - [Vue](https://vuejs.org/guide/quick-start.html)
 - [Youtube - Vue 3 With Danny](https://www.youtube.com/watch?v=9whgkjxoCME)
@@ -161,3 +118,49 @@ Start upp projektet i en live-server med kommandot<br>
 ### Resurser
 
 [Vue.js Slots](https://vuejs.org/v2/guide/components-slots.html) <br>
+
+## VUE-CLI
+
+Säkerställ att du har Node.js installerat på din dator genom att öppna ett kommandofönster och skriva:<br>
+`node --version`<br><br>
+
+Node är ett program på din dator som möjliggör att man kan köra JavaScript utanför webbläsaren, och tillhandahåller ett enkelt sätt att hämta JavaScript paket via ett verktyg som heter NPM Node Package Manager.
+
+Jag får upp <i>"Welcome to Node.js v14.17.6."<i> men versionnumret kan skilja för er.
+<br><br>
+Sedan ska ni installera Vue CLI på eran dator genom kommandot:<br>
+`npm install -g @vue/cli`<br><br>
+
+Bekräfta att det installerats genom kommandot: <br>
+`vue --version`<br><br>
+
+Jag får upp <i>"@vue/cli 4.5.12"<i> men versionnumret kan skilja för er.
+<br><br>
+
+## Nytt projekt från start
+
+Vue CLI används för att generera ett projekt och görs via ett kommandofönster. Så börja med att öppna ett kommandofönster.
+Och byt mapp till den platsen du vill skapa projektet<br>
+`cd c:/development/vue`<br><br>
+
+Ange ett namn på projektet du vill skapa<br>
+`vue create projekt-namn`<br><br>
+Byt till mappen som projektet finns i<br>
+`cd projekt-namn`<br><br>
+
+Öppna projektet i Visual Studio Code med kommandot<br>
+`code .`<br><br>
+
+Start upp projektet i en live-server med kommandot<br>
+`npm run serve`<br><br>
+
+## Öppna befintligt projekt
+
+Så börja med att öppna ett kommandofönster och byt mapp till projektets mapp<br>
+`cd c:/development/vue/test-projekt`<br><br>
+
+Öppna projektet i Visual Studio Code med kommandot<br>
+`code .`<br><br>
+
+Start upp projektet i en live-server med kommandot<br>
+`npm run serve`<br><br>
