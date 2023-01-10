@@ -82,7 +82,7 @@ För att starta projektet måste man cd in i det först enligt:
 
 ```
 $ cd quasar-project
-$ npm quasar dev
+$ npx quasar dev
 ```
 
 Om man öppnar projektet i Visual Studio Code så ser mapp strukturen enligt.
