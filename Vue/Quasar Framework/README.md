@@ -14,6 +14,9 @@ $ npm init quasar
 ```
 
 Vid frågorna som dyker upp välj svaren enligt nedan val:
+När frågan vilka feature du vill ha, bocka av ESLint genom mellanslag tangenten.
+
+<img src="./images/eslint.png">
 
 ```
 $ npm init quasar
@@ -42,8 +45,7 @@ Y88b.Y8b88P Y88b 888 888  888      X88 888  888 888
 √ Project description: ... A Quasar Project
 √ Author: ... abbjetmus <jeton.mustini@abbindustrigymnasium.se>
 √ Pick your CSS preprocessor: » Sass with SCSS syntax
-√ Check the features needed for your project: » ESLint, State Management (Pinia), Axios
-√ Pick an ESLint preset: » Standard
+√ Check the features needed for your project: »
 
  Quasar • Generating files...
 
@@ -107,3 +109,63 @@ I pages skapar man komponenter som blir en hel sida i applikationen.
 I router definerar man hur url eller sökvägarna ser ut till dem olika sidorna i applikationen tex /home ska gå till startsidan och /about ska gå till om-oss sidan osv.
 * **stores**
 I stores kan man definera data som blir tillgängligt över alla komponenter.
+
+## Ny fil i pages
+När du skapar en ny sida i Quasar använd den här mallen dvs <q-page></q-page> componenten högst upp direkt under <template></template>.
+Sidan ska ligga i pages mappen. Byt ut även denna kod mot det som finns i IndexPage.vue.
+Har inte script-taggen `<script setup>` setup i sig så är det fel.
+
+```html
+<template>
+  <q-page>
+
+  </q-page>
+</template>
+
+<script setup>
+import {ref} from 'vue'
+
+</script>
+```
+
+## Ny fil i components
+När du skapar en ny sida i Quasar använd den här mallen dvs `<q-page></q-page>` componenten högst upp direkt under `<template></template>`.
+Komponenten ska ligga i components-mappen.
+
+```html
+<template>
+ 
+</template>
+
+<script setup>
+import {ref} from 'vue'
+
+</script>
+```
+
+## Övning 0. Skapa ett nytt Quasar projekt
+1. Skapa ett nytt Quasar projekt enligt instruktionerna ovan och inkludera inte ESLint.
+2. Öppna sedan projektet i webbläsaren.
+3. Bekanta dig med mapparna innanför **src**-mappen.
+
+## Övning 1. Importera en component till IndexPage
+1. Skapa en komponent som heter `MyCardComponent` som innehåller ett valfri card som du hämtar från Quasar Components.
+2. Importera sedan MyCardComponent till IndexPage och använd det i html-delen. Kolla i Vue powerpointen hur man gör.
+
+## Övning 2.1 Ny sida (Page) och navigering
+1. Skapa en ny sida som du döper *MyTestPage.vue* innanför pages mappen.
+2. Lägg in mall koden för en page som inkluderar q-page.
+3. Lägg till en `route` (rutt/path/url) för den sidan som heter 'my-test' i filen `src/router/routes.js`.
+4. Använd en länk med `<router-link>` och navigera till MyTestPage från IndexPage och gärna en länk som navigerar tillbaka.
+
+## Övning 2.2 Ny sida (Page) och navigering från javascript
+1. Skapa en knapp i IndexPage.vue
+2. Koppla knappen till en funktion som heter goToMyTestPage()
+3. Funktionen goToMyTestPage ska navigera till MyTestPage.vue. 
+4. Importera `useRouter` och använd router.push() funktionen.
+
+## Övning 3. Flexbox i Quasar
+
+## Övning 4. Jobba med bakgrundsfärger och färger i Quasar
+
+## Övning 5. Jobba med text och typografi i Quasar
