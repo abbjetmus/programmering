@@ -87,6 +87,17 @@ $ cd quasar-project
 $ npx quasar dev
 ```
 
+## Öppna befintligt projekt
+
+Så börja med att öppna ett kommandofönster och byt mapp till projektets mapp<br>
+`cd c:/development/quasar/quasar-project`<br><br>
+
+Öppna projektet i Visual Studio Code med kommandot<br>
+`code .`<br><br>
+
+Start upp projektet i en live-server med kommandot<br>
+`npx quasar dev`<br><br>
+
 Om man öppnar projektet i Visual Studio Code så ser mapp strukturen enligt.
 
 <img src="./images/folder-structure.png"></a>
@@ -152,20 +163,65 @@ import {ref} from 'vue'
 1. Skapa en komponent som heter `MyCardComponent` som innehåller ett valfri card som du hämtar från Quasar Components.
 2. Importera sedan MyCardComponent till IndexPage och använd det i html-delen. Kolla i Vue powerpointen hur man gör.
 
-## Övning 2.1 Ny sida (Page) och navigering
+## Övning 2.1 Flexbox i Quasar
+
+1. Använd en div-tagg som i sin tur innehåller 3 andra div-taggar med siffrorna 1-3.
+2. Gör den yttersta div-taggen till en row `class="row"`.
+3. Testa sedan Quasars flexbox klasser för att flytta boxarna.
+  * justify-center
+  * justify-between
+  * items-center
+  * ...
+<img src="./images/flexbox.png"></img>
+
+## Övning 2.2 Flexbox i Quasar
+
+I den här uppgiften ska ni använda flexbox klasserna från Quasar för att åstadkomma designen på bilden nedan.
+Ni behöver inte ha med färgerna utan det kommer i nästa uppgift.
+Får ni inte till hela designen försök några sektioner iallafall.
+
+<a href="https://quasar.dev/layout/grid/introduction-to-flexbox">Introduction to Flexbox</a><br>
+<a href="https://quasar.dev/layout/grid/row">Grid Row</a>
+
+<img src="./images/quasar-flexbox.png"></img>
+
+## Övning 3. Jobba med bakgrundsfärger och färger i Quasar
+
+Från designen ovan försök applicera färger med Quasars färg-klasser enligt bilden.
+
+<a href="https://quasar.dev/style/color-palette#brand-colors">Färger i Quasar Framework</a>
+
+## Övning 4. Jobba med text och typografi i Quasar
+
+Använd Quasar classer för typografi för att skapa texterna på bilden nedan.
+
+<a href="https://quasar.dev/style/typography#introduction">typografi i Quasar</a>
+
+<img src="./images/typography.png">
+
+## Övning 5. Jobba med margin, padding i Quasar
+Använd margin och padding klasserna som Quasar tillhandahåller för att skapa bilden nedan.<br>
+<a href="https://quasar.dev/style/spacing">Spacing in Quasar</a>
+
+<img src="./images/margin-padding.png">
+
+## Övning 6.1 Ny sida (Page) och navigering
+<a href="https://router.vuejs.org/guide/"> Vue Router hemsida.</a> <br>
+
 1. Skapa en ny sida som du döper *MyTestPage.vue* innanför pages mappen.
 2. Lägg in mall koden för en page som inkluderar q-page.
 3. Lägg till en `route` (rutt/path/url) för den sidan som heter 'my-test' i filen `src/router/routes.js`.
 4. Använd en länk med `<router-link>` och navigera till MyTestPage från IndexPage och gärna en länk som navigerar tillbaka.
 
-## Övning 2.2 Ny sida (Page) och navigering från javascript
+## Övning 6.2 Ny sida (Page) och navigering från javascript
 1. Skapa en knapp i IndexPage.vue
 2. Koppla knappen till en funktion som heter goToMyTestPage()
-3. Funktionen goToMyTestPage ska navigera till MyTestPage.vue. 
-4. Importera `useRouter` och använd router.push() funktionen.
+3. Importera `useRouter` och använd router.push() funktionen.
+4. Funktionen goToMyTestPage ska navigera till MyTestPage.vue. 
 
-## Övning 3. Flexbox i Quasar
+## Övning 7. Quasar - VueFire - Firebase
 
-## Övning 4. Jobba med bakgrundsfärger och färger i Quasar
+VueFire är ett javascript paket som förenklar användandet av Firebase i Vue.
 
-## Övning 5. Jobba med text och typografi i Quasar
+<a href="https://vuefire.vuejs.org/guide/getting-started.html">https://vuefire.vuejs.org/guide/getting-started.html</a>
+
