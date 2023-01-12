@@ -165,6 +165,9 @@ import {ref} from 'vue'
 
 ## Övning 2.1 Flexbox i Quasar
 
+<a href="https://quasar.dev/layout/grid/introduction-to-flexbox">Introduction to Flexbox</a><br>
+<a href="https://quasar.dev/layout/grid/row">Grid Row</a>
+
 1. Använd en div-tagg som i sin tur innehåller 3 andra div-taggar med siffrorna 1-3.
 2. Gör den yttersta div-taggen till en row `class="row"`.
 3. Testa sedan Quasars flexbox klasser för att flytta boxarna.
