@@ -228,6 +228,20 @@ Använd margin och padding klasserna som Quasar tillhandahåller för att skapa 
 3. Importera `useRouter` och använd router.push() funktionen.
 4. Funktionen goToMyTestPage ska navigera till MyTestPage.vue.
 
+## Övning 6.3 Navigera med params till en detaljerad sida lite överkurs
+
+1. Skapa en sida som heter UsersPage.vue
+2. Hämta användarna från den här sidan enligt: <a href="https://jsonplaceholder.typicode.com/users">
+
+```js
+fetch("https://jsonplaceholder.typicode.com/users")
+  .then((response) => response.json())
+  .then((json) => console.log(json));
+```
+
+3. Lista användarna, och lägg till möjligheten att klicka till den detaljerade vyn UserDetailsPage.
+4. Hämta parametern id och hämta användaren som ska visas i UserDetailsPage.vue
+
 ## Övning 7. Quasar - VueFire - Firebase
 
 VueFire är ett javascript paket som förenklar användandet av Firebase i Vue.
