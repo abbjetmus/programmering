@@ -3,11 +3,14 @@
 Quasar Framework är ett ramverk baserat på Vue som förenklar utvecklingen av applikationer avsevärt.
 
 ## Resurser
+
 <a href="https://quasarcast.com">Quasar Videos</a>
 
 # Skapa ett Quasar Projekt
 
 Skriv in följande kommandon i terminalen på en plats där du vill ha dina Quasar projekt.
+Första kommandot gör ni bara första gången, däremot andra kommandot varje gång ni ska skapa ett projekt.
+
 ```
 $ npm i -g @quasar/cli
 $ npm init quasar
@@ -104,62 +107,60 @@ Om man öppnar projektet i Visual Studio Code så ser mapp strukturen enligt.
 
 Den mappen som vi endast behöver fokusera på 99% av tiden är **src**-mappen.
 
-* **assets**  
-I assets så lägger man in bilder och andra resurser som man vill ha på hemsidan.
-* **boot**  
-I boot sätter man upp användning av 3:e parts kod tex om man använder Firebase eller ett graf-bibliotek.
-* **components**  
-I components lägger man in mindre vue-komponenter t.ex. en sektion av en sida.
-* **css**  
-I css mappen finns filer att justera CSS för hela hemsidan.
-* **layouts**  
-I layouts finns MainLayout komponenten som är den layout som används förr alla sidor.
-* **pages**  
-I pages skapar man komponenter som blir en hel sida i applikationen.
-* **router**  
-I router definerar man hur url eller sökvägarna ser ut till dem olika sidorna i applikationen tex /home ska gå till startsidan och /about ska gå till om-oss sidan osv.
-* **stores**
-I stores kan man definera data som blir tillgängligt över alla komponenter.
+- **assets**  
+  I assets så lägger man in bilder och andra resurser som man vill ha på hemsidan.
+- **boot**  
+  I boot sätter man upp användning av 3:e parts kod tex om man använder Firebase eller ett graf-bibliotek.
+- **components**  
+  I components lägger man in mindre vue-komponenter t.ex. en sektion av en sida.
+- **css**  
+  I css mappen finns filer att justera CSS för hela hemsidan.
+- **layouts**  
+  I layouts finns MainLayout komponenten som är den layout som används förr alla sidor.
+- **pages**  
+  I pages skapar man komponenter som blir en hel sida i applikationen.
+- **router**  
+  I router definerar man hur url eller sökvägarna ser ut till dem olika sidorna i applikationen tex /home ska gå till startsidan och /about ska gå till om-oss sidan osv.
+- **stores**
+  I stores kan man definera data som blir tillgängligt över alla komponenter.
 
 ## Ny fil i pages
+
 När du skapar en ny sida i Quasar använd den här mallen dvs <q-page></q-page> componenten högst upp direkt under <template></template>.
 Sidan ska ligga i pages mappen. Byt ut även denna kod mot det som finns i IndexPage.vue.
 Har inte script-taggen `<script setup>` setup i sig så är det fel.
 
 ```html
 <template>
-  <q-page>
-
-  </q-page>
+  <q-page> </q-page>
 </template>
 
 <script setup>
-import {ref} from 'vue'
-
+  import { ref } from "vue";
 </script>
 ```
 
 ## Ny fil i components
+
 När du skapar en ny sida i Quasar använd den här mallen dvs `<q-page></q-page>` componenten högst upp direkt under `<template></template>`.
 Komponenten ska ligga i components-mappen.
 
 ```html
-<template>
- 
-</template>
+<template> </template>
 
 <script setup>
-import {ref} from 'vue'
-
+  import { ref } from "vue";
 </script>
 ```
 
 ## Övning 0. Skapa ett nytt Quasar projekt
+
 1. Skapa ett nytt Quasar projekt enligt instruktionerna ovan och inkludera inte ESLint.
 2. Öppna sedan projektet i webbläsaren.
 3. Bekanta dig med mapparna innanför **src**-mappen.
 
 ## Övning 1. Importera en component till IndexPage
+
 1. Skapa en komponent som heter `MyCardComponent` som innehåller ett valfri card som du hämtar från Quasar Components.
 2. Importera sedan MyCardComponent till IndexPage och använd det i html-delen. Kolla i Vue powerpointen hur man gör.
 
@@ -171,11 +172,12 @@ import {ref} from 'vue'
 1. Använd en div-tagg som i sin tur innehåller 3 andra div-taggar med siffrorna 1-3.
 2. Gör den yttersta div-taggen till en row `class="row"`.
 3. Testa sedan Quasars flexbox klasser för att flytta boxarna.
-  * justify-center
-  * justify-between
-  * items-center
-  * ...
-<img src="./images/flexbox.png"></img>
+
+- justify-center
+- justify-between
+- items-center
+- ...
+  <img src="./images/flexbox.png"></img>
 
 ## Övning 2.2 Flexbox i Quasar
 
@@ -203,28 +205,31 @@ Använd Quasar classer för typografi för att skapa texterna på bilden nedan.
 <img src="./images/typography.png">
 
 ## Övning 5. Jobba med margin, padding i Quasar
+
 Använd margin och padding klasserna som Quasar tillhandahåller för att skapa bilden nedan.<br>
 <a href="https://quasar.dev/style/spacing">Spacing in Quasar</a>
 
 <img src="./images/margin-padding.png">
 
 ## Övning 6.1 Ny sida (Page) och navigering
+
 <a href="https://router.vuejs.org/guide/"> Vue Router hemsida.</a> <br>
 
-1. Skapa en ny sida som du döper *MyTestPage.vue* innanför pages mappen.
+1. Skapa en ny sida som du döper _MyTestPage.vue_ innanför pages mappen.
 2. Lägg in mall koden för en page som inkluderar q-page.
 3. Lägg till en `route` (rutt/path/url) för den sidan som heter 'my-test' i filen `src/router/routes.js`.
-4. Använd en länk med `<router-link>` och navigera till MyTestPage från IndexPage och gärna en länk som navigerar tillbaka.
+4. Använd en länk med `<router-link to="">` och navigera till MyTestPage från IndexPage och gärna en länk som navigerar tillbaka.
+5. Många komponenter i Quasar som tex `q-btn` och `q-item` har props för navigering med `to=""`, testa navigera med en q-btn istället för `<router-link></router-link>`.
 
 ## Övning 6.2 Ny sida (Page) och navigering från javascript
+
 1. Skapa en knapp i IndexPage.vue
 2. Koppla knappen till en funktion som heter goToMyTestPage()
 3. Importera `useRouter` och använd router.push() funktionen.
-4. Funktionen goToMyTestPage ska navigera till MyTestPage.vue. 
+4. Funktionen goToMyTestPage ska navigera till MyTestPage.vue.
 
 ## Övning 7. Quasar - VueFire - Firebase
 
 VueFire är ett javascript paket som förenklar användandet av Firebase i Vue.
 
 <a href="https://vuefire.vuejs.org/guide/getting-started.html">https://vuefire.vuejs.org/guide/getting-started.html</a>
-
