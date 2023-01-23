@@ -153,6 +153,83 @@ Komponenten ska ligga i components-mappen.
 </script>
 ```
 
+## Inkludera externa bibliotek i Quasar
+
+Quasar har något som heter boot-filer, det är uppstartskod som körs innan appen/hemsidan startar och det är just då man vill säga till
+Quasar att använda Firebase eller använda det här graf-biblioteket osv. Man skapar en ny fil för varje bibliotek. Här visas processen att installera Firebase och VueFire i Quasar.
+
+0. I kommandofönstret för projektet installera Firebase & VueFire med kommandot:
+
+```
+$ npm install firebase vuefire firebase
+```
+
+1. Skapa sedan en boot-fil. Kommandot för att skapa en boot-fil för firebase (namnet kan vara vad som helst råkade vara firebase här):
+
+```
+$ npx quasar new boot firebase
+
+ App • Generated boot: src\boot\firebase.js
+ App • Make sure to reference it in quasar.config.js > boot
+```
+
+Man kan också lägga till det manuellt genom att skapa filen `firebase` i mappen `src/boot` med innehållet:
+
+```js
+import { boot } from "quasar/wrappers";
+
+// "async" is optional;
+// more info on params: https://v2.quasar.dev/quasar-cli/boot-files
+export default boot(async (/* { app, router, ... } */) => {
+  // something to do
+});
+```
+
+2. Steg två är att göra enligt sista kommentaren i utskriften efter skapat filen vilket är referera till den i `quasar.config.js`.
+
+<img src="./images/boot-file.png"/>
+
+3. Byt ut innehållet för firebase boot-filen till följande och använd nycklarna till er firebase instans:
+
+```js
+import { initializeApp, getApps } from "firebase/app";
+import { getDatabase } from "firebase/database";
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: "",
+};
+
+const apps = getApps();
+let firebaseApp;
+if (!apps.length) {
+  firebaseApp = initializeApp(firebaseConfig);
+} else {
+  firebaseApp = apps[0];
+}
+
+const db = getDatabase(firebaseApp);
+
+export default boot(async ({ app }) => {
+  app.use(VueFire, {
+    // imported above but could also just be created here
+    firebaseApp,
+    modules: [
+      // we will see other modules later on
+      VueFireAuth(),
+    ],
+  });
+});
+
+export { db };
+```
+
 ## Övning 0. Skapa ett nytt Quasar projekt
 
 1. Skapa ett nytt Quasar projekt enligt instruktionerna ovan och inkludera inte ESLint.
@@ -244,6 +321,28 @@ fetch("https://jsonplaceholder.typicode.com/users")
 
 ## Övning 7. Quasar - VueFire - Firebase
 
-VueFire är ett javascript paket som förenklar användandet av Firebase i Vue.
+VueFire är ett javascript paket som förenklar användandet av Firebase i Vue. Speciellt hämtning av data.
 
 <a href="https://vuefire.vuejs.org/guide/getting-started.html">https://vuefire.vuejs.org/guide/getting-started.html</a>
+
+Viktigt att man använder Realtime Database exemplen och inte Firestore, då vi använder Realtime Database.
+
+<img src="./images/realtimedb.png">
+
+## Övning 7.1 Läsa från firebase
+
+1. Gå igenom sektionen `Inkludera externa bibliotek i Quasar` som beskriver hur man installerar och sätter upp Firebase och VueFire.
+   Koppa databasen till ert Firebase projekt för Temperatur projektet.
+2. I IndexPage försök hämta data från ert Firebase projekt enligt VueFire och presentera det i html:en.
+   Alterativt skapa manuellt en lista med att göra Todo och hämta det datat.
+
+## Övning 7.2 Skapa ett formulär och skicka data till Firebase
+
+1. Skapa ett formulär för en todo med fälten `id` som är ett nummer och fältet `text` som är text.
+2. Koppla fälten till två variabler med `v-model`
+3. Skapa en knapp som när man klickar anropar en funktion `sendTodo()`
+4. Funktionen ska skapa ett todo objekt som sedan skickas till Firebase.
+
+```js
+{id: 1, text: "Köpa mjölk"}
+```
