@@ -126,20 +126,15 @@ Bekfräfta det med `console.log()`.
 
 **Övning 0. If sats**
 
+1. Skapa en variabel med `age` som tilldelas värdet 16.
+2. Används if-sats för att kontrollera om age är större eller lika med 18. Stämmer det skriv ut "Du får ta körkort".
+3. Utöka sedan med else del där du skriver du skriver ut "Du får inte ta körkort!".
+
+**Övning 1. If sats**
+
 1. Ta en ett namn från användaren med _prompt_ och tilldela det till en variabel name.
-2. Används if-sats för att kontrollera om namnet är "Kalle". Stämmer det skriv ut "Du heter Kalle".
-3. Utöka sedan med else del där du skriver du skriver ut "Du heter inte Kalle!".
-
-**Övning 1. If (en sträng med noll)**<br>
-Kommer `Hejsan!` att visas?
-
-```
-if ("0") {
-  alert( 'Hejsan!' );
-}
-```
-
-Testa koden genom att bekfräfta.
+2. Använd en if-sats för att kontrollera om namnet är "Kalle". Stämmer det skriv ut "Du heter Kalle".
+3. Utöka sedan med else del där du skriver ut "Du heter inte Kalle!".
 
 **Övning 2. Namnet Javascript**<br>
 Med `if..else`-konstruktionen, skriv koden som frågar: "Vad är det officiella namnet på JavaScript?"
@@ -178,16 +173,11 @@ if (a + b < 4) {
 
 ### Övningsuppgifter
 
-**Övning 1. Sista loop värdet**<br>
-Vad är det sista värdet som skrivs till konsolen med den här koden? Varför?
+**Övning 0. For-loop**<br>
+Skapa en for-loop som skriver ut siffrorna 1-10.
 
-```
-let i = 3;
-
-while (i) {
-  alert( i-- );
-}
-```
+**Övning 1. While-loop**<br>
+Skapa en while-loop som skriver ut siffrorna 1-10.
 
 **Övning 2. Vilka värden visas av while-loopen?**<br>
 För varje loop-iteration, skriv ner vilket värde det matar ut och jämför sedan det med lösningen.
@@ -197,15 +187,19 @@ Båda looparna skriver ut samma värden eller inte?
 1. prefix formen `++i`:
 
 ```
-let i = 0;
-while (++i < 5) alert( i );
+let i = 0
+while (++i < 5) {
+  alert( i )
+}
 ```
 
 2. postfix formen `i++`:
 
 ```
 let i = 0;
-while (i++ < 5) alert( i );
+while (i++ < 5) {
+  alert( i );
+}
 ```
 
 **Övning 3. Vilka värden visas av for-loopen?**<br>
@@ -216,13 +210,19 @@ Båda looparna skriver ut samma värden eller inte?
 1. postfix formen:
 
 ```
-for (let i = 0; i < 5; i++) alert( i );
+for (let i = 0; i < 5; i++) {
+  alert( i );
+}
+
 ```
 
 2. prefix formen:
 
 ```
-for (let i = 0; i < 5; ++i) alert( i );
+for (let i = 0; i < 5; ++i) {
+  alert( i );
+}
+
 ```
 
 **Övning 4. Skriv ut jämna siffror i loopen**<br>
