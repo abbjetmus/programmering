@@ -37,50 +37,49 @@ CSS är det som ger en hemsida en design och färger. Här nedan ser vi ett exem
 ### Resurser
 [W3Schools CSS - Syntax](https://www.w3schools.com/css/css_syntax.asp)
 
-
 ## 2. CSS Selectorer
 ### Resurser
 [W3Schools CSS Selectors](https://www.w3schools.com/css/css_selectors.asp)
-### Övningsuppgift
-[Övning HTML-document](https://javascript.info/variables)
+### Övningsuppgift 0
+[CSS Selectorer](https://github.com/abbjetmus/programmering/blob/master/CSS/%C3%96vningar/README.md#%C3%B6vning-0-css-selectorer)
 
-## 3. HTML - dokument
+## 3. CSS Olika sätt
 ### Resurser
-[W3Schools HTML-document](https://www.w3schools.com/html/html_basic.asp)
-### Övningsuppgift
-[Övning HTML-document](https://javascript.info/variables)
+[W3Schools How To Add CSS](https://www.w3schools.com/css/css_howto.asp)
 
-## 0. HTML - dokument
+### Övningsuppgift 1
+[CSS Olika sätt](https://github.com/abbjetmus/programmering/blob/master/CSS/%C3%96vningar/README.md#%C3%B6vning-1-tre-s%C3%A4tt-att-l%C3%A4gga-till-css)
+
+## 4. CSS färger
 ### Resurser
-[W3Schools HTML-document](https://www.w3schools.com/html/html_basic.asp)
-### Övningsuppgift
-[Övning HTML-document](https://javascript.info/variables)
+[W3Schools CSS Colors (Färger)](https://www.w3schools.com/css/css_colors.asp)
 
-## 0. HTML - dokument
+## 5. CSS Backgrounds (Bakgrunder)
 ### Resurser
-[W3Schools HTML-document](https://www.w3schools.com/html/html_basic.asp)
-### Övningsuppgift
-[Övning HTML-document](https://javascript.info/variables)
+[CSS Backgrounds (Bakgrunder)](https://www.w3schools.com/html/html_basic.asp)
 
-## 0. HTML - dokument
+## 6. CSS Borders (Ramar)
 ### Resurser
-[W3Schools HTML-document](https://www.w3schools.com/html/html_basic.asp)
-### Övningsuppgift
-[Övning HTML-document](https://javascript.info/variables)
+[CSS Borders (Ramar)](https://www.w3schools.com/css/css_border.asp)
 
-## 0. HTML - dokument
+## 7. CSS Margins (Marginaler)
 ### Resurser
-[W3Schools HTML-document](https://www.w3schools.com/html/html_basic.asp)
-### Övningsuppgift
-[Övning HTML-document](https://javascript.info/variables)
+[CSS Margins (Marginaler)](https://www.w3schools.com/css/css_margin.asp)
 
-## 0. HTML - dokument
+## 8. CSS Padding (Utfyllnad)
 ### Resurser
-[W3Schools HTML-document](https://www.w3schools.com/html/html_basic.asp)
-### Övningsuppgift
-[Övning HTML-document](https://javascript.info/variables)
+[CSS Padding (Utfyllnad)](https://www.w3schools.com/css/css_padding.asp)
 
+## 9. CSS Height/Width
+### Resurser
+[CSS Height/Width](https://www.w3schools.com/css/css_dimension.asp)
 
+## 10. CSS Box Model
+### Resurser
+[CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
+
+### Övningsuppgift 2
+[CSS Boxmodellen](https://github.com/abbjetmus/programmering/blob/master/CSS/%C3%96vningar/README.md#%C3%B6vning-2-box-modellen)
 
 ## CSS Flexbox - layoutmodul
 Före Flexbox Layout modulen fanns det fyra layoutlägen:

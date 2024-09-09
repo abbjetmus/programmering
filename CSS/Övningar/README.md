@@ -1,7 +1,7 @@
 # CSS Övningar
 
 ## W3Schools - CSS Övningar
-Gör alla övningar på den här länken <https://www.w3schools.com/css/exercise.asp/>
+Gör så många övningar som du orkar på den här länken <https://www.w3schools.com/css/css_exercises.asp>
 
 ## Övning 0. CSS Selectorer
 
