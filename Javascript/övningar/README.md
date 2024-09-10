@@ -284,6 +284,11 @@ if (a == 2 || a == 3) {
 
 ### Övningsuppgifter
 
+**Övning 0. Skriv en funktion Add som adderar ett tal med sig självt
+
+1. Skapa en function add som tar in 1 parameter x och returnerar x+x.
+2. Anropa funktionen med 5 och skriv ut resultatet med alert.
+
 **Övning 1. Skriv om "switch"-satsen till "if"-satser**<br>
 Följande funktion returnerar sant om parametern `age` är högre än 18.
 Annars skriver den ut "Du är för ung tyvärr!":
