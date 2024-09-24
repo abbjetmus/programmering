@@ -368,6 +368,14 @@ max(1, 1) == 1
 
 ### Övningsuppgifter
 
+**Övning 0. Ett djur-objekt**<br>
+
+1. Skapa ett valfritt djur med minst 3 egenskapar, tex `cat` och egenskaperna: color, age, name.
+2. Skapa några metoder på objektet också, tex sound och sleep som skriver ut något till konsolen.
+3. Lägg till egenskapen `surname` med värdet `Smith`.
+4. Skriv ut egenskaperna med console.log().
+5. Anropa metoderna.
+
 **Övning 1. Hello Objekt**<br>
 Skriv koden, en rad för varje åtgärd:
 
