@@ -62,3 +62,24 @@ Det finns tre sätt att lägga till CSS:
 ```
 
 ![alt text](./box-model.png)
+
+## Övning 3. CSS Flexbox - Flexbox Froggy
+Läs om Flexbox på den här länken och gör uppgifterna på den andra länken:
+
+* Läs: <https://www.w3schools.com/css/css3_flexbox.asp>
+
+* Gör uppgifterna: <https://flexboxfroggy.com/#sv>
+
+## Övning 4. CSS Flexbox - Implementera design struktur
+Flexbox används för att skapa layout på hemsidor och speciellt att få saker att placeras horisontellt.
+Det här är en gammal design från Linneuniversitet. Din uppgift är att utifrån div:ar återskapa strukturen med flexbox så utseendet blir som sista bilden. Använd flexbox och procent för bredden för div:arna. Du kan sätta bakgrundsfärger så du lättare ser var div:arnas gränser går. 
+
+![alt text](./design-flexbox1.png)
+
+![alt text](./design-flexbox2.png)
+
+![alt text](./design-flexbox3.png)
+
+![alt text](./design-flexbox4.png)
+
+![alt text](./design-flexbox5.png)
