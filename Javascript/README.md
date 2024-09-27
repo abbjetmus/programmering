@@ -173,10 +173,3 @@ För att se resultatet från koden öppnar du filen från mappen i webbläsaren.
 ### Övningsuppgifter
 
 [Övningar Arrays](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-10)
-
-# 5. Webbläsaren - DOM (Document Object Model) - BOM (Browser Object Model) - Events
-
-## Resurser
-
-- [W3Schools JS-HTML-DOM](https://www.w3schools.com/js/js_htmldom.asp)
-- [W3Schools JS-Browser-BOM](https://www.w3schools.com/js/js_window.asp)
