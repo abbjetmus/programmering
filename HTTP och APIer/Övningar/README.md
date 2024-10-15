@@ -2,6 +2,8 @@
 
 ## Övning 1. setTimeout med callback
 
+<https://www.w3schools.com/jsref/met_win_settimeout.asp>
+
 1. Skapa en function som heter `hello()` skriver ut "Hej om 5 sekunder!"
 2. Använd den inbyggda funktionen setTimeout så att funktionen `hello`
 anropas efter 5 sekunder som är 5000 milliesekunder.
