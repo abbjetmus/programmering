@@ -35,6 +35,20 @@ Det här är en introduktionshandledning som behandlar grunderna för Firebase-p
 Här nedan är dokumentation från Firebase egna hemsida om hur man använder produkten.<br><br>
 <https://firebase.google.com/docs/database>
 
+Det som är nytt är att man måste använda firebase biblioteket på Arduino som heter så här
+
+![Image](./Exempel/esp8266firebaseclient.png)
+
+Därefter
+
+```c++
+#define FIREBASE_HOST ""
+#define FIREBASE_AUTH ""
+
+#define WIFI_SSID "ABB_Gym_IOT"
+#define WIFI_PASSWORD "Welcome2abb"
+```
+
 ## Hemsidan
 Ni kan välja att bygga er hemsida med endast HTML, CSS och JavaScript. Men det kan vara lite svårt att designa en hemsida och därför brukar man använda någon form av CSS-bibliotek. Ett sådant bibliotek är tex Bootstrap som jag kan rekommendera att ni använder i era projekt.
 Här kommer lite resurser på Bootstrap:

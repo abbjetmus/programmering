@@ -3,7 +3,7 @@
 #define FIREBASE_HOST ""
 #define FIREBASE_AUTH ""
 
-#define WIFI_SSID "ABB_Indgym_Guest"
+#define WIFI_SSID "ABB_Gym_IOT"
 #define WIFI_PASSWORD "Welcome2abb"
 //Define Firebase Data objects
 FirebaseData firebaseData1;
