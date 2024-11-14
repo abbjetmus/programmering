@@ -6,8 +6,8 @@
 #define FIREBASE_AUTH ""      // Här ska du ange din Firebase-autentisering dvs web api nyckeln
 
 // Definiera WiFi-uppgifter
-#define WIFI_SSID "ABB_Gym_IOT"  // WiFi-namn
-#define WIFI_PASSWORD "Welcome2abb" // WiFi-lösenord
+#define WIFI_SSID "Hitachigymnasiet_2.4"  // WiFi-namn
+#define WIFI_PASSWORD "mittwifiarsabra" // WiFi-lösenord
 
 // Skapa Firebase Data-objekt
 FirebaseData firebaseData;
