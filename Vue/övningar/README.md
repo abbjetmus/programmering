@@ -5,23 +5,11 @@ Ni som upplever att uppgifterna är för lätta och vill ha lite mer utmanande m
 
 ### Övning 0 - Skapa ett nytt Vue projekt med Vue-CLI
 Skapa ett nytt projekt med Vue CLI dvs via kommandofönstret, minns du inte kolla på beskrivningen i mappen en nivå upp.
-Du kan göra övningarna för 0 i App.vue komponenten.
+Du kan göra övningarna för 0 i App.vue komponenten. Alternativt ska ett Quasar Framework projekt och jobba i pages/IndexPage.vue
 
 #### Övning 0.1 - Interpolering
 1. Skapa en data variabel *message* med värdet "Hello Vue!" och visa värdet i HTML koden genom interpolering {{}}.
 2. Hitta på lite fler variabler med olika typer och visa dem med.
-
-```
-export default {
-  name: 'App',
-  export
-  data() {
-    return {
-
-    }
-  }
-}
-```
 
 #### Övning 0.2 - Attribut bindning
 1. Skapa en data variabel *link* med värdet på en valfri Youtube video. Skapa sedan en länk-tagg <a>a</a>-tagg som binder till länk variabeln, verifiera så att länken fungerar när du klickar på den.
@@ -38,19 +26,33 @@ Skapa sedan en img-tagg vars src-attribut binder till image variabeln och visar 
 
 #### Övning 0.5 - API anrop för att hämta ett objekt och presentera det
 1. Skapa en variabel som heter *photo* som är null från början.
-2. I *created()* metoden gör ett API-anrop med *fetch()* som hämtar ett photo objekt och tilldelar det till *photo* data variabeln.<br>
+2. I *onMounted()* metoden gör ett API-anrop med *fetch()* som hämtar ett photo objekt och tilldelar det till *photo* data variabeln.<br>
+
+```js
+onMounted(() => {
+
+})
+```
+
 <https://jsonplaceholder.typicode.com/photos/1>
 3. Presentera sedan photo objektets värden i html med interpolation.
 
 #### Övning 0.6 - API anrop för att hämta en lista av objekt
 1. Skapa en variabel som heter *photos* som är null från början.
-2. I *created()* metoden gör ett API-anrop med *fetch()* som hämtar ett photo objekt och tilldelar det till *photo* data-variabeln.<br>
+2. I *onMounted()* metoden gör ett API-anrop med *fetch()* som hämtar ett photo objekt och tilldelar det till *photo* data-variabeln.<br>
+
+```js
+onMounted(() => {
+
+})
+```
+
 <https://jsonplaceholder.typicode.com/photos/1>
 3. Presentera sedan photo objektets värden i html med interpolation.
 
 #### Övning 0.7 - Eventhantering med knappar
 1. Skapa en data variabel som heter *name* och som innehåller ert förnamn. Visa namnet med interpolering på skärmen.
-2. Skapa sedan en knapp med texten "byt namn", koppla på ett klick event/metod som körs när man klickar på knappen så att *name* variabeln uppdateras till ditt efternamn istället. Du kan döpa metoden till vad du vill tex changeName().
+2. Skapa sedan en knapp med texten "byt namn", koppla på ett klick-event/metod som körs när man klickar på knappen så att *name* variabeln uppdateras till ditt efternamn istället. Du kan döpa metoden till vad du vill tex changeName().
 
 ### Övning 0.8 - Två-vägs bindning och computed (beräknade variabler)
 1. Skapa två data-variabler för firstName och lastName.
@@ -74,12 +76,12 @@ Som ger diven följande egenskaper, men ska ha olika färger dvs grönt och röt
 3. Skapa en variabel isGreen som bestämmer vilken klass som appliceras på diven med hjälp av class-bindning.
 4. Skapa en knapp som ändrar på isGreen och sedan på klassen.
 
-### Övning 0.10 - Style-bindning
+### Övning 0.11 - Style-bindning
 Skapa Computed och Watch exemplen i powerpoint presentationen och försök förstå vad dem gör.
 
-### Övning 1 - Hello From GroupX
-3. I en valfri komponent i projektet skapa en rubrik med texten "Hello From GroupX" tillsammans med en lista på namnen av alla grupp medlemmar.
-"Hello From GroupX" och listan ska deklareras som vue data variabler.
+### Övning 1 - Hello From Group X - Skapa och visa en komponent
+3. I en valfri komponent i projektet skapa en rubrik med texten "Hello From Group X" tillsammans med en lista på namnen av alla grupp medlemmar i din basgrupp.
+"Hello From Group X" och listan ska deklareras som vue data variabler.
 
 ### Övning 1.1 - Formulär
 1. Skapa 4 input-fält för address, postnummer, stad och land.
